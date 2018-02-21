@@ -9,5 +9,4 @@ from processDataset import processDataset
 # Importing da dataset
 
 dataset = pd.read_csv('flat_raw.csv', ';')
-X = processDataset(dataset)
-y = processPrices(dataset)
+dataset = processDataset(dataset)
