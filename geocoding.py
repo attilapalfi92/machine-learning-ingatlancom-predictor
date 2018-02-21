@@ -37,9 +37,9 @@ API_KEY = 'AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'data/geocode_results.csv'
+output_filename = 'geocode_results.csv'
 # Set your input file here
-input_filename = "data/locations2.csv"
+input_filename = "locations2.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
 # Return Full Google Results? If True, full JSON results from Google are included in output
@@ -55,12 +55,12 @@ if address_column_name not in data.columns:
 
 # Form a list of addresses for geocoding:
 # Make a big list of all of the addresses to be processed.
-addresses = data[address_column_name].tolist()
 
 # **** DEMO DATA / IRELAND SPECIFIC! ****
 # We know that these addresses are in Ireland, and there's a column for county, so add this for accuracy. 
 # (remove this line / alter for your own dataset)
-addresses = (data[address_column_name] + ',' + data['County'] + ',Ireland').tolist()
+data[address_column_name] = data[address_column_name].apply(lambda s: s + ',Hungary')
+addresses = (data[address_column_name]).tolist()
 
 
 #------------------	FUNCTION DEFINITIONS ------------------------

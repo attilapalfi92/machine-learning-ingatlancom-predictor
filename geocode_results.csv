@@ -1,0 +1,102 @@
+,accuracy,formatted_address,google_place_id,input_string,latitude,longitude,number_of_results,postcode,status,type
+0,GEOMETRIC_CENTER,"Budapest, Szegedi út, Hungary",,"13. kerület Szegedi út,Hungary",47.5289831,19.0823481,1,,OK,route
+1,,,,"13. kerület Corner 21,Hungary",,,0,,ZERO_RESULTS,
+2,ROOFTOP,"Balatonlelle, Köztársaság u. 11, 8638 Hungary",ChIJExnPJm-uaUcRJEnsLMEx4dI,"Balatonlelle Lelle Resort,Hungary",46.7888138,17.6985404,1,8638,OK,"establishment,lodging,point_of_interest"
+3,,,,"6. kerület Belső-Terézváros,Hungary",,,0,,ZERO_RESULTS,
+4,APPROXIMATE,"Győr, Sziget, 9025 Hungary",ChIJ_QKct1iVa0cRNnbbOfEezU0,"Győr Sziget,Hungary",47.6889389,17.620282,1,9025,OK,"political,sublocality,sublocality_level_1"
+5,,,,"13. kerület Corner 21,Hungary",,,0,,ZERO_RESULTS,
+6,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+7,ROOFTOP,"Budapest, Alíz utca 6, 1116 Hungary",ChIJjexonZ_dQUcR0ZgGOy_bD7s,"11. kerület Budai Bolero II,Hungary",47.458082,19.048978,1,1116,OK,"establishment,general_contractor,point_of_interest"
+8,APPROXIMATE,"Budapest, Pasarét, Hungary",ChIJJ63rO8_eQUcRfWrDh5at578,"2. kerület Pasarét,Hungary",47.5188316,18.9992736,1,,OK,"neighborhood,political"
+9,,,,"11. kerület Tetris Ház 1.ütem,Hungary",,,0,,ZERO_RESULTS,
+10,GEOMETRIC_CENTER,"Budapest, Szegedi út, Hungary",,"13. kerület Szegedi út,Hungary",47.5289831,19.0823481,1,,OK,route
+11,GEOMETRIC_CENTER,"Budapest, Rézsű u., 1029 Hungary",ChIJ69ToOKbYQUcRMkBlc8zlxEM,"2. kerület Rézsű utca,Hungary",47.5492968,18.9429476,1,1029,OK,route
+12,ROOFTOP,"Budapest, Alíz utca 6, 1116 Hungary",ChIJjexonZ_dQUcR0ZgGOy_bD7s,"11. kerület Budai Bolero II,Hungary",47.458082,19.048978,1,1116,OK,"establishment,general_contractor,point_of_interest"
+13,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+14,GEOMETRIC_CENTER,"Budapest, Sas u., 1051 Hungary",ChIJRdtCLxXcQUcRuolT0lgugJE,"5. kerület Sas utca,Hungary",47.5007607,19.0520163,1,1051,OK,route
+15,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+16,,,,"13. kerület Béke Liget,Hungary",,,0,,ZERO_RESULTS,
+17,GEOMETRIC_CENTER,"Budapest, Szegedi út, Hungary",,"13. kerület Szegedi út,Hungary",47.5289831,19.0823481,1,,OK,route
+18,,,,"13. kerület Angyalföld-Kertváros,Hungary",,,0,,ZERO_RESULTS,
+19,GEOMETRIC_CENTER,"Budapest, Szegedi út, Hungary",,"13. kerület Szegedi út,Hungary",47.5289831,19.0823481,1,,OK,route
+20,GEOMETRIC_CENTER,"Budapest, Marina stny., 1138 Hungary",ChIJj0WAltDbQUcRdSXsDypBzwc,"13. kerület Marina Garden,Hungary",47.54768019999999,19.0644731,1,1138,OK,route
+21,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+22,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+23,ROOFTOP,"Budapest, Wesselényi u. 55, 1077 Hungary",ChIJNz-X2mXcQUcRSxH3VF-rnq8,"7. kerület Wesselényi utca 55.,Hungary",47.501423,19.0706176,1,1077,OK,street_address
+24,,,,"11. kerület Elite Park,Hungary",,,0,,ZERO_RESULTS,
+25,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+26,GEOMETRIC_CENTER,"Budapest, Marina stny., 1138 Hungary",ChIJj0WAltDbQUcRdSXsDypBzwc,"13. kerület Marina Garden,Hungary",47.54768019999999,19.0644731,1,1138,OK,route
+27,ROOFTOP,"Budapest, Dráva u. 12, 1133 Hungary",ChIJfUcfD_HbQUcRIv2oXHBSL_Y,"13. kerület Dráva utca 12.,Hungary",47.52525500000001,19.0595751,1,1133,OK,street_address
+28,,,,"13. kerület Green Court Residences,Hungary",,,0,,ZERO_RESULTS,
+29,,,,"11. kerület Terrace Residence by Cordia,Hungary",,,0,,ZERO_RESULTS,
+30,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+31,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+32,,,,"13. kerület Green Court Residences,Hungary",,,0,,ZERO_RESULTS,
+33,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+34,,,,"11. kerület Sasad Resort Sun by Cordia,Hungary",,,0,,ZERO_RESULTS,
+35,,,,"11. kerület Elite Park,Hungary",,,0,,ZERO_RESULTS,
+36,,,,"13. kerület FRANGIPANI24,Hungary",,,0,,ZERO_RESULTS,
+37,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+38,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+39,ROOFTOP,"Budapest, Úszódaru u. 10, 1138 Hungary",ChIJ4aoeotrbQUcRTKiVT_r9elc,"13. kerület Duna Terasz Premium,Hungary",47.54678579999999,19.0678776,1,1138,OK,"establishment,point_of_interest,real_estate_agency"
+40,GEOMETRIC_CENTER,"Budapest, Viola u., 1094 Hungary",ChIJYQEIX_ncQUcRCkoL4P9TorU,"9. kerület Viola utca,Hungary",47.480791,19.0756328,1,1094,OK,route
+41,APPROXIMATE,"Budapest, Alsórákos, Hungary",ChIJreG0gmzbQUcRtFVC4lkfLUw,"14. kerület Alsórákos,Hungary",47.5205938,19.1331485,1,,OK,"neighborhood,political"
+42,ROOFTOP,"Budapest, Petőfi Sándor u. 12, 1052 Hungary",ChIJARixR0HcQUcR243gCovZsCU,"5. kerület Petőfi Sándor utca 12.,Hungary",47.494304,19.053836,1,1052,OK,street_address
+43,RANGE_INTERPOLATED,"Budapest, Öv u. 137, 1147 Hungary",EihCdWRhcGVzdCwgw5Z2IHUuIDEzNywgMTE0NyBNYWd5YXJvcnN6w6Fn,"14. kerület Öv utca 137.,Hungary",47.5296146,19.1268348,1,1147,OK,street_address
+44,,,,"13. kerület Pannónia Ház,Hungary",,,0,,ZERO_RESULTS,
+45,,,,"13. kerület FRANGIPANI24,Hungary",,,0,,ZERO_RESULTS,
+46,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+47,,,,"13. kerület Vizafogó – Marinapart,Hungary",,,0,,ZERO_RESULTS,
+48,,,,"13. kerület Pannónia Ház,Hungary",,,0,,ZERO_RESULTS,
+49,GEOMETRIC_CENTER,"Budapest, Visegrádi u., Hungary",ChIJhUs-mvbbQUcRCdNIZj0G7Z8,"13. kerület Visegrádi utca,Hungary",47.5214949,19.0597163,1,,OK,route
+50,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+51,GEOMETRIC_CENTER,"Budapest, Marina stny., 1138 Hungary",ChIJj0WAltDbQUcRdSXsDypBzwc,"13. kerület Marina Garden,Hungary",47.54768019999999,19.0644731,1,1138,OK,route
+52,,,,"13. kerület Pannónia Ház,Hungary",,,0,,ZERO_RESULTS,
+53,ROOFTOP,"Budapest, Lőportár u. 1, 1134 Hungary",ChIJKbYiX4rbQUcRa_oREjiEnHA,"13. kerület Westfalia Building,Hungary",47.5180076,19.0684091,1,1134,OK,"establishment,point_of_interest"
+54,,,,"14. kerület Thermal Zugló 3,Hungary",,,0,,ZERO_RESULTS,
+55,ROOFTOP,"Budapest, Máriássy u. 2-4, 1095 Hungary",ChIJW3sQnhzdQUcRZ5TJtZj_014,"9. kerület Máriássy utca 4.,Hungary",47.4692272,19.0774089,1,1095,OK,street_address
+56,APPROXIMATE,"Budapest, Angyalföld, Hungary",ChIJmYuMfb_bQUcRlM64rPJ47Qw,"13. kerület Angyalföld,Hungary",47.5297474,19.0800943,1,,OK,"neighborhood,political"
+57,GEOMETRIC_CENTER,"Budapest, Tüzér u., 1134 Hungary",ChIJ-_DWx4zbQUcRmYMOxDXlGIc,"13. kerület Tüzér utca,Hungary",47.5229349,19.068496,1,1134,OK,route
+58,,,,"13. kerület Pannónia Ház,Hungary",,,0,,ZERO_RESULTS,
+59,APPROXIMATE,"Budapest, Víziváros, Hungary",ChIJKxFtYxjcQUcRGW9Kt-tVbM0,"1. kerület Víziváros,Hungary",47.50504309999999,19.038844,1,,OK,"neighborhood,political"
+60,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+61,,,,"11. kerület Savoya Ház,Hungary",,,0,,ZERO_RESULTS,
+62,,,,"11. kerület Tetris Ház 1.ütem,Hungary",,,0,,ZERO_RESULTS,
+63,,,,"13. kerület Smart 13,Hungary",,,0,,ZERO_RESULTS,
+64,,,,"1. kerület Sun Hill Residence,Hungary",,,0,,ZERO_RESULTS,
+65,,,,"13. kerület Unipark46,Hungary",,,0,,ZERO_RESULTS,
+66,GEOMETRIC_CENTER,"Budapest, Hárshegyi út, 1021 Hungary",ChIJMVkcBjDfQUcRuyFn-1RpUgY,"2. kerület Hárshegyi út,Hungary",47.5249468,18.9661076,1,1021,OK,route
+67,,,,"1. kerület Sun Hill Residence,Hungary",,,0,,ZERO_RESULTS,
+68,,,,"11. kerület Sasad Resort Hill by Cordia,Hungary",,,0,,ZERO_RESULTS,
+69,GEOMETRIC_CENTER,"Budapest, Budaörsi út, Hungary",,"11. kerület Budaörsi út,Hungary",47.4651562,19.0124861,1,,OK,route
+70,,,,"13. kerület Smart 13,Hungary",,,0,,ZERO_RESULTS,
+71,,,,"1. kerület Sun Hill Residence,Hungary",,,0,,ZERO_RESULTS,
+72,GEOMETRIC_CENTER,"Budapest, Thököly út, Hungary",EiZCdWRhcGVzdCwgVGjDtmvDtmx5IMO6dCwgTWFneWFyb3JzesOhZw,"7. kerület Thököly út,Hungary",47.5031171,19.0872405,1,,OK,route
+73,ROOFTOP,"Budapest, Máriássy u. 2-4, 1095 Hungary",ChIJW3sQnhzdQUcRZ5TJtZj_014,"9. kerület Máriássy utca 4.,Hungary",47.4692272,19.0774089,1,1095,OK,street_address
+74,APPROXIMATE,"Budapest, Sasad, Hungary",ChIJpay1eNjdQUcR6hVOASMBxgY,"11. kerület Sasad,Hungary",47.4735156,19.0077598,1,,OK,"neighborhood,political"
+75,GEOMETRIC_CENTER,"Budapest, Ráday u., 1092 Hungary",ChIJ6fnYNlfcQUcRckNi1xfMlSA,"9. kerület Ráday utca,Hungary",47.4852056,19.0647222,1,1092,OK,route
+76,,,,"11. kerület Elite Park,Hungary",,,0,,ZERO_RESULTS,
+77,,,,"14. kerület Thermal Zugló 3,Hungary",,,0,,ZERO_RESULTS,
+78,GEOMETRIC_CENTER,"Budapest, Szent István krt., Hungary",,"5. kerület Szent István körút,Hungary",47.5119019,19.0513176,1,,OK,route
+79,APPROXIMATE,"Budapest, Herminamező, Hungary",ChIJEeKG4HjbQUcRCaQO8SFowcU,"14. kerület Herminamező,Hungary",47.5189291,19.0985653,1,,OK,"neighborhood,political"
+80,,,,"13. kerület Pannónia Ház,Hungary",,,0,,ZERO_RESULTS,
+81,ROOFTOP,"Budapest, Ferenc tér 2, 1094 Hungary",ChIJ96CSJPncQUcRIzOvbqaV9hA,"13. kerület Pesti Ház - Átrium 2,Hungary",47.4809902,19.0729166,1,1094,OK,"establishment,point_of_interest"
+82,GEOMETRIC_CENTER,"Budapest, Angyalföldi út, 1134 Hungary",ChIJba9IZfLbQUcRrF3g11CiOe8,"13. kerület Angyalföldi út,Hungary",47.5264588,19.0660891,1,1134,OK,route
+83,,,,"13. kerület Green Court Residences,Hungary",,,0,,ZERO_RESULTS,
+84,ROOFTOP,"Budapest, Ferenc tér 2, 1094 Hungary",ChIJ96CSJPncQUcRIzOvbqaV9hA,"13. kerület Pesti Ház - Átrium 2,Hungary",47.4809902,19.0729166,1,1094,OK,"establishment,point_of_interest"
+85,,,,"11. kerület Savoya Ház,Hungary",,,0,,ZERO_RESULTS,
+86,ROOFTOP,"Budapest, Bíbor u. 10, 1149 Hungary",ChIJVa_HiqHcQUcRHVxIpGj2I_Y,"14. kerület Bíbor utca 10-12,Hungary",47.50336249999999,19.1156432,1,1149,OK,street_address
+87,ROOFTOP,"Budapest, Füredi u. 15b, 1144 Hungary",ChIJ8cMMelPbQUcRTsLBNeoUm_Q,"14. kerület Alsórákos – Füredi utcai lakótelep,Hungary",47.5090988,19.1442886,1,1144,OK,"establishment,point_of_interest"
+88,,,,"11. kerület Elite Park,Hungary",,,0,,ZERO_RESULTS,
+89,ROOFTOP,"Budapest, Izabella u. 61, 1064 Hungary",ChIJCeCtlnHcQUcROfQcJXU7k-w,"13. kerület Kassák Residence,Hungary",47.508167,19.066685,1,1064,OK,"establishment,lodging,point_of_interest"
+90,,,,"6. kerület Vörösmarty West,Hungary",,,0,,ZERO_RESULTS,
+91,GEOMETRIC_CENTER,"Budapest, Kartács u., 1139 Hungary",,"13. kerület Kartács Park,Hungary",47.5285029,19.0763412,1,1139,OK,route
+92,,,,"9. kerület Középső-Ferencváros,Hungary",,,0,,ZERO_RESULTS,
+93,,,,"13. kerület Smart 13,Hungary",,,0,,ZERO_RESULTS,
+94,ROOFTOP,"Budapest, Ferenc tér 2, 1094 Hungary",ChIJ96CSJPncQUcRIzOvbqaV9hA,"13. kerület Pesti Ház - Átrium 2,Hungary",47.4809902,19.0729166,1,1094,OK,"establishment,point_of_interest"
+95,ROOFTOP,"Budapest, Ferenc tér 2, 1094 Hungary",ChIJ96CSJPncQUcRIzOvbqaV9hA,"13. kerület Pesti Ház - Átrium 2,Hungary",47.4809902,19.0729166,1,1094,OK,"establishment,point_of_interest"
+96,ROOFTOP,"Budapest, Ferenc tér 2, 1094 Hungary",ChIJ96CSJPncQUcRIzOvbqaV9hA,"13. kerület Pesti Ház - Átrium 2,Hungary",47.4809902,19.0729166,1,1094,OK,"establishment,point_of_interest"
+97,,,,"13. kerület Green Court Residences,Hungary",,,0,,ZERO_RESULTS,
+98,,,,"13. kerület Green Court Residences,Hungary",,,0,,ZERO_RESULTS,
+99,GEOMETRIC_CENTER,"Budapest, Arany János u., 1051 Hungary",ChIJ3ao9_xTcQUcRWU87o5ZSL7w,"5. kerület Arany János utca,Hungary",47.502095,19.049841,1,1051,OK,route
+100,,,,"13. kerület Corner 21,Hungary",,,0,,ZERO_RESULTS,
