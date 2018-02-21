@@ -26,6 +26,9 @@ def processDataset (dataset):
     dataset['sub_type'] = dataset['sub_type'].astype('category')
     dataset['toilet'] = dataset['toilet'].astype('category')
     
+    dataset['location'] = dataset[['settlement', 'settlement_sub']] \
+    .apply(lambda s: ' '.join(s), axis=1)
+    
     dataset['floor'] = dataset['floor'] \
     .apply(lambda f: f.replace('nincs megadva', 'NaN')).astype(float)
     
