@@ -20,21 +20,14 @@ def processDataset (dataset):
     dataset['parking'] = dataset['parking'].astype('category')
     dataset['sub_type'] = dataset['sub_type'].astype('category')
     dataset['toilet'] = dataset['toilet'].astype('category')
+    dataset['floor'] = dataset['floor'].apply(lambda f: f.replace('nincs megadva', 'NaN')).astype('float')
     
-    floors = dataset[['floor']].values
-    for i in range(floors.start, floors.stop):
-        if (floors[i][0] == 'földszint'):
-            floors[i][0] = '0'
-        elif (floors[i][0] == 'félemelet'):
-            floors[i][0] = '0.5'
-        else:
-            floors[i][0] = 'NaN'
-
-    dataset['floor'] = dataset['floor'].astype('float')
-    floor_imputer = Imputer(missing_values="NaN", strategy='')
-    
-    building_levels = dataset[['building_levels']].values
-                                     
-    # TODO: rooms, size, settlement, building_levels, floor
+#    
+#    building_levels = dataset[['building_levels']].values
+#    
+    floor_imputer = Imputer(missing_values="NaN", strategy='most_frequent')    
+    floor_imputer.fit()
+#                                 
+    # TODO: rooms, size, settlement, building_levels
     
     return dataset

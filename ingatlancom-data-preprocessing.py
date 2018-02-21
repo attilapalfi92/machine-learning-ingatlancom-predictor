@@ -8,7 +8,6 @@ from processDataset import processDataset
 
 # Importing da dataset
 
-
 dataset = pd.read_csv('flat_raw.csv', ';')
 dataset = processDataset(dataset)
 X = dataset.iloc[:,:].drop('price', 1).drop('id', 1).values
