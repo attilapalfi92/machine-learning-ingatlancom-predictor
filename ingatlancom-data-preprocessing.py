@@ -10,4 +10,3 @@ from processDataset import processDataset
 
 dataset = pd.read_csv('flat_raw.csv', ';')
 dataset = processDataset(dataset)
-dataset['location'].to_csv('locations.csv', index=False)

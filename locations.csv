@@ -133,6 +133,7 @@ Győr Sziget,Győr
 13. kerület Hegedűs Gyula utca,13. kerület
 4. kerület Csíksomlyó utca,4. kerület
 8. kerület Bauer Sándor utca,8. kerület
+8. kerület Rákóczi út,8. kerület
 13. kerület Lehel utca 19/A,13. kerület
 9. kerület Bakáts utca 8.,9. kerület
 8. kerület Baross utca 105.,8. kerület
@@ -156,7 +157,6 @@ Gyömrő Kastélydomb,Gyömrő
 7. kerület Porta Nova,7. kerület
 3. kerület Kolosy tér,3. kerület
 14. kerület Wesselton Rooftop Project,14. kerület
-8. kerület Rákóczi út,8. kerület
 11. kerület Madárhegy,11. kerület
 14. kerület Szugló utca 123.,14. kerület
 14. kerület Komócsy utca 7.,14. kerület
@@ -1639,6 +1639,7 @@ Göd József Attila utca,Göd
 11. kerület Villányi út,11. kerület
 9. kerület Üllői út 95.,9. kerület
 4. kerület Virág utca,4. kerület
+10. kerület Bánya utca,10. kerület
 6. kerület Rózsa utca 78.,6. kerület
 11. kerület Bartók Béla út 130.,11. kerület
 13. kerület Hegedűs Gyula utca 90.,13. kerület
@@ -2492,6 +2493,7 @@ Szeged Felsőváros,Szeged
 Pécs Baranya megye,Pécs
 Kiskunhalas Belváros,Kiskunhalas
 Miskolc Örs utca 2.,Miskolc
+Pécs Maléter Pál út,Pécs
 Szeged Szent István tér,Szeged
 Szeged Csuka utca,Szeged
 Dunaújváros Esze Tamás utca 10.,Dunaújváros
@@ -2569,7 +2571,6 @@ Szeged Petőfi Sándor sugárút 66.,Szeged
 Pécs Illyés Gyula út,Pécs
 Kecskemét Mezei utca,Kecskemét
 Győr Ifjúság körút,Győr
-Pécs Maléter Pál út,Pécs
 Balatonfüred Köztársaság utca,Balatonfüred
 Miskolc Nefelejcs utca,Miskolc
 Szombathely Bem József utca,Szombathely
@@ -2579,6 +2580,7 @@ Szeged Csongrádi sugárút 67.,Szeged
 Veszprém Zrínyi Miklós utca,Veszprém
 Debrecen Diófa utca,Debrecen
 Szeged Felső Tisza part,Szeged
+Balatonlelle Orgona utca,Balatonlelle
 Győr Bercsényi liget,Győr
 Eger Malomárok utca 57.,Eger
 Győr Somogyi Béla utca,Győr
@@ -2854,6 +2856,7 @@ Szombathely Faludi Ferenc utca,Szombathely
 Kecskemét Budai utca 3.,Kecskemét
 Miskolc Láditelepi út,Miskolc
 Siófok Tanácsház utca,Siófok
+Miskolc Andor utca 92/a,Miskolc
 Szeged Gáspár Zoltán utca,Szeged
 Debrecen Hajnal utca,Debrecen
 Győr Körtöltés utca,Győr
@@ -3264,6 +3267,7 @@ Orosháza Könd utca 23.,Orosháza
 Esztergom Szalézi út,Esztergom
 11. kerület Karolina út 56.,11. kerület
 8. kerület Vajdahunyad utca,8. kerület
+Jásztelek Szabadság út 43.,Jásztelek
 Székesfehérvár Park Város,Székesfehérvár
 12. kerület Nárcisz utca,12. kerület
 10. kerület Halom utca 12.,10. kerület
@@ -3861,6 +3865,7 @@ Miskolc Vécsey Károly utca,Miskolc
 Nyíregyháza Selyem utca 37.,Nyíregyháza
 Kiskunfélegyháza Kossuth Lajos utca,Kiskunfélegyháza
 Győr Pátzay Pál utca,Győr
+Eger Jókai Mór utca,Eger
 Siófok Köztársaság utca 5.,Siófok
 Füzesabony Rákóczi Ferenc út 58.,Füzesabony
 Pécs Bánki Donát út 21.,Pécs
@@ -4064,7 +4069,6 @@ Szeged Szent János tér,Szeged
 Dunaújváros Technikum városrész,Dunaújváros
 8. kerület Nagyvárad tér,8. kerület
 20. kerület Baba utca,20. kerület
-10. kerület Bánya utca,10. kerület
 Dunaújváros Szórád Márton út,Dunaújváros
 3. kerület Víziorgona utca,3. kerület
 3. kerület Tamás utca,3. kerület
@@ -4259,6 +4263,7 @@ Budaörs Szabadság út,Budaörs
 Nyíregyháza Őz köz,Nyíregyháza
 16. kerület Mátyásföld – Petőfikert,16. kerület
 Pécs Rigóder,Pécs
+Cserszegtomaj Fenyves utca,Cserszegtomaj
 11. kerület Gombocz Zoltán utca,11. kerület
 Tiszaújváros Városközpont,Tiszaújváros
 Debrecen Borz utca 1.,Debrecen
@@ -4419,6 +4424,7 @@ Szeged Gál utca,Szeged
 14. kerület Miskolci utca,14. kerület
 22. kerület Tűzliliom utca,22. kerület
 Székesfehérvár Maroshegy,Székesfehérvár
+Nagykovácsi Pók utca,Nagykovácsi
 Szeged Kazinczy utca,Szeged
 Szombathely Bolyai János utca,Szombathely
 Nagykovácsi Rozmaring utca,Nagykovácsi
@@ -4526,6 +4532,7 @@ Fót Kisalag,Fót
 14. kerület Vazul utca,14. kerület
 Szeged Szabadság tér,Szeged
 Szeged Tarján,Szeged
+Szeged Hunyadi tér,Szeged
 Újszentiván Csongrád megye,Újszentiván
 13. kerület Zsinór utca 33.,13. kerület
 Debrecen Benedek Elek tér,Debrecen
@@ -4586,6 +4593,7 @@ Pécs Rácváros,Pécs
 Bélapátfalva József Attila utca 8.,Bélapátfalva
 7. kerület Wesselényi utca 58.,7. kerület
 Budaörs Budaörsi Kamaraerdő,Budaörs
+2. kerület Tamara utca,2. kerület
 Sopron Gyóni Géza utca,Sopron
 Debrecen Krónikás utca,Debrecen
 Pécs Jászai Mari utca,Pécs
@@ -4654,6 +4662,7 @@ Szigetszentmiklós Lakihegy,Szigetszentmiklós
 3. kerület Farkastorok,3. kerület
 Pécs Bálicsi út 3.,Pécs
 Tata Fácános kert,Tata
+11. kerület Olt utca,11. kerület
 Pécs Kolozsvár utca,Pécs
 3. kerület Harang utca,3. kerület
 22. kerület Művelődés utca,22. kerület
@@ -4792,6 +4801,7 @@ Csömör Ófalu,Csömör
 Százhalombatta Óváros,Százhalombatta
 5. kerület Szerb utca 17.,5. kerület
 8. kerület Bláthy Ottó utca,8. kerület
+Sopron Petőfi tér,Sopron
 11. kerület Ördögorom lejtő,11. kerület
 Cserkeszőlő Thermál lakópark,Cserkeszőlő
 8. kerület Kerepesi út,8. kerület
@@ -4815,6 +4825,7 @@ Sopron Újteleki utca,Sopron
 6. kerület Nyugati tér,6. kerület
 Szigetszentmiklós Óváros,Szigetszentmiklós
 Bugyi Pest megye,Bugyi
+Martonvásár Központ,Martonvásár
 12. kerület Moha köz,12. kerület
 Pécs Majorossy Imre utca,Pécs
 Szeged Tápé,Szeged
@@ -5057,6 +5068,7 @@ Nyíregyháza Kertváros,Nyíregyháza
 Szolnok Gerbera utca 3.,Szolnok
 Szolnok Városmajor út,Szolnok
 Zsámbék Csap utca,Zsámbék
+Szolnok Kápolna utca,Szolnok
 11. kerület Györök utca,11. kerület
 Pécs Zrínyi Miklós utca,Pécs
 22. kerület Lomnici utca,22. kerület
@@ -5115,6 +5127,7 @@ Monor Belváros,Monor
 Pécs Papkert utca,Pécs
 Kerepes Lázár Vilmos utca,Kerepes
 Szeged Nádas utca,Szeged
+Süttő Petőfi Sándor utca 1.,Süttő
 Zalaegerszeg Neszele,Zalaegerszeg
 Algyő Búvár utca,Algyő
 Szeged Hajós utca,Szeged
@@ -5242,6 +5255,7 @@ Pákozd Fejér megye,Pákozd
 Szeged Veres ács utca 29.,Szeged
 21. kerület Védgát utca,21. kerület
 Várpalota Erdődy Pálffy Tamás utca,Várpalota
+Üröm Rókahegy,Üröm
 12. kerület Hegyalja út,12. kerület
 3. kerület Tóga utca,3. kerület
 Debrecen Felsőjózsa,Debrecen
@@ -5277,6 +5291,7 @@ Debrecen Kardos Albert utca,Debrecen
 Nagyatád Jókai utca 13.,Nagyatád
 Nagyatád Jókai utca,Nagyatád
 Nagyatád Somogy megye,Nagyatád
+Szentendre Bükköspart,Szentendre
 Nagyatád Aradi utca,Nagyatád
 17. kerület Pesti út 53.,17. kerület
 Nagyatád Tallián Andor utca,Nagyatád
@@ -5381,6 +5396,7 @@ Rajka Győr-Moson-Sopron megye,Rajka
 1. kerület Somlói út,1. kerület
 Törökszentmiklós Jász-Nagykun-Szolnok megye,Törökszentmiklós
 Hévíz Egregy,Hévíz
+2. kerület Dutka Ákos utca,2. kerület
 Debrecen Somkóró utca,Debrecen
 Veszprém Deák Ferenc utca,Veszprém
 Kiskunhalas Szilády Áron utca 27.,Kiskunhalas
@@ -5417,6 +5433,7 @@ Dunaújváros Erdő sor,Dunaújváros
 5. kerület Bajcsy-Zsilinszky út 66.,5. kerület
 Csongrád Hársfa utca,Csongrád
 Mályi Kossuth utca,Mályi
+12. kerület Farkasrét,12. kerület
 Nagykovácsi Kolozsvár utca,Nagykovácsi
 3. kerület Montevideo utca,3. kerület
 6. kerület Dalszínház utca 8.,6. kerület
@@ -5490,10 +5507,12 @@ Eger Felnémet,Eger
 Badacsonytomaj Veszprém megye,Badacsonytomaj
 Zánka Veszprém megye,Zánka
 20. kerület Alsóteleki utca,20. kerület
+2. kerület Szalonkales utca,2. kerület
 Szeged Kukovetz Nana utca,Szeged
 Remeteszőlős Pest megye,Remeteszőlős
 8. kerület Bacsó Béla utca,8. kerület
 3. kerület Rókahegyi út,3. kerület
+10. kerület Dombhát utca,10. kerület
 Solymár Hutweide,Solymár
 15. kerület Bethlen Gábor utca 109.,15. kerület
 Páty Pest megye,Páty
@@ -5721,6 +5740,7 @@ Kecskemét Liszt Ferenc utca,Kecskemét
 Győr Dunakapu tér,Győr
 14. kerület Emília utca,14. kerület
 16. kerület Diósy Lajos utca,16. kerület
+Zalaegerszeg Gálafejpuszta,Zalaegerszeg
 Kecskemét Halasi út,Kecskemét
 Mosonmagyaróvár Gát utca,Mosonmagyaróvár
 Kiskunfélegyháza Bács-Kiskun megye,Kiskunfélegyháza
@@ -5983,6 +6003,7 @@ Baja Kodály Zoltán utca 19.,Baja
 8. kerület nincs megadva,8. kerület
 Kiskunfélegyháza Jókai utca,Kiskunfélegyháza
 Kiskunfélegyháza Klapka utca,Kiskunfélegyháza
+Zalakaros Hegyalja utca 14.,Zalakaros
 Salgótarján Rákóczi út,Salgótarján
 Pécs Ajtósi Dürer utca 10.,Pécs
 Miskolc Mátyás király utca 24.,Miskolc
@@ -5993,6 +6014,7 @@ Kistarcsa Kápolna utca,Kistarcsa
 11. kerület Kelenhegyi út 81.,11. kerület
 Mezőtúr Csokonai utca,Mezőtúr
 Baja Parti utca,Baja
+Tékes Dózsa utca 2.,Tékes
 Nyíregyháza Sarló utca,Nyíregyháza
 Hajdúsámson Méhes utca,Hajdúsámson
 Székesfehérvár Sóstó,Székesfehérvár
@@ -6004,6 +6026,7 @@ Nyíregyháza Holló utca,Nyíregyháza
 Bük Bükfürdő,Bük
 20. kerület Fás utca,20. kerület
 1. kerület Naphegy tér,1. kerület
+Erdősmárok Szőlős utca 3.,Erdősmárok
 18. kerület Jósika Miklós utca,18. kerület
 Debrecen Görgey utca,Debrecen
 Kőszeg Kórház utca,Kőszeg
@@ -6070,8 +6093,10 @@ Bélapátfalva Heves megye,Bélapátfalva
 21. kerület Csepel-Ófalu,21. kerület
 20. kerület Köves út,20. kerület
 Szeged Sziksós,Szeged
+21. kerület Károli Gáspár utca,21. kerület
 Nagykáta Zárda utca,Nagykáta
 Nyírtelek Rákóczi Ferenc utca 74.,Nyírtelek
+Gyál Jálicsholdas,Gyál
 Gödöllő Erzsébet királyné körút,Gödöllő
 19. kerület Zalaegerszeg utca 160.,19. kerület
 22. kerület Hős utca,22. kerület
@@ -6147,6 +6172,7 @@ Szeged Takaréktár utca,Szeged
 Szeged Bartucz Lajos utca,Szeged
 11. kerület Bicskei utca,11. kerület
 Siófok Szabadifürdő,Siófok
+Dad Kossuth utca 777.,Dad
 Kecskemét Kristály tér,Kecskemét
 Kecskemét Mészöly Gyula út,Kecskemét
 Kecskemét Bánk bán utca,Kecskemét
@@ -6163,7 +6189,6 @@ Kecskemét Petőfi Sándor utca,Kecskemét
 Paks Kurcsatov utca 19.,Paks
 Miskolc Eperjesi utca,Miskolc
 9. kerület Dési Huber utca 17.,9. kerület
-12. kerület Farkasrét,12. kerület
 11. kerület Csurgói út 22-32,11. kerület
 Királd Blaha Béla lakótelep 3. fszt. 3.,Királd
 Győr Gyóni Géza sétány 4.,Győr
@@ -6243,6 +6268,7 @@ Békéscsaba Lepény Pál utca,Békéscsaba
 3. kerület Nánási út 75.,3. kerület
 Nyíregyháza Bessenyei tér,Nyíregyháza
 Miskolc Aulich Lajos utca,Miskolc
+Dad Kocsi utca 222.,Dad
 13. kerület Gyermek tér 6/B,13. kerület
 16. kerület Rákóczi út,16. kerület
 Pécs Gém utca,Pécs
@@ -6446,6 +6472,7 @@ Miskolc Egri utca,Miskolc
 Dunaújváros Római körút 39.,Dunaújváros
 14. kerület Kövér Lajos utca 16-18,14. kerület
 Makó Kálvin utca,Makó
+5. kerület Kálmán Imre utca 16.,5. kerület
 Pécs Zsinkó István utca,Pécs
 Debrecen Honvéd utca,Debrecen
 Sármellék Barátság lakótelep,Sármellék
@@ -6476,7 +6503,6 @@ Gyula Törökzugi sor,Gyula
 Miskolc Fábián utca,Miskolc
 Üröm Péterhegyi lakópark,Üröm
 Szolnok Kazinczy utca,Szolnok
-11. kerület Olt utca,11. kerület
 11. kerület Bartók Béla út 30.,11. kerület
 Makó Belváros,Makó
 Pécs Erzsébettelep,Pécs
@@ -6689,6 +6715,7 @@ Miskolc Miskolctapolcai út 39/FSZ,Miskolc
 Miskolc Miskolctapolcai út 39/2,Miskolc
 Kecskemét Csongrádi út 45.,Kecskemét
 Miskolc Miskolctapolcai út 39.,Miskolc
+Dunakeszi Ida utca 1.,Dunakeszi
 Salgótarján Arany János út,Salgótarján
 Aszód Falujárók útja 5/18,Aszód
 9. kerület Mihálkovics utca 10.,9. kerület
@@ -6759,6 +6786,7 @@ Kisköre Vasút út,Kisköre
 Mindszent Köztársaság tér 11.I.7.,Mindszent
 Tatabánya Feszty Árpád utca,Tatabánya
 Hőgyész Ady Endre utca,Hőgyész
+Jánossomorja Pusztasomorja,Jánossomorja
 15. kerület Mézeskalács tér 3.,15. kerület
 Nagykanizsa Garay utca,Nagykanizsa
 Vác Vám utca,Vác
@@ -6777,6 +6805,7 @@ Kál Kápolnai út 24.,Kál
 9. kerület Külső Mester utca,9. kerület
 14. kerület Eleonóra utca 9.,14. kerület
 Kaposvár Pécsi utca,Kaposvár
+Bazsi Fő utca,Bazsi
 Dunaújváros Római körút 9.,Dunaújváros
 14. kerület Egressy út 52.,14. kerület
 Szegvár Ék utca 4.,Szegvár
@@ -6796,6 +6825,7 @@ Szeged Gyöngytyúk utca,Szeged
 16. kerület Formás utca,16. kerület
 10. kerület Gergely utca 128.,10. kerület
 Derecske Nap utca 4.,Derecske
+Bazsi Jókai utca 4.,Bazsi
 Szeged Klauzál tér,Szeged
 9. kerület Lenhossék utca 8.,9. kerület
 Szeged Londoni körút,Szeged
@@ -6807,6 +6837,7 @@ Orosháza Bercsényi utca,Orosháza
 Monor Újtelep,Monor
 Szigetszentmiklós Csermely utca,Szigetszentmiklós
 7. kerület Csengery utca 6.,7. kerület
+Oroszlány Újváros,Oroszlány
 12. kerület Agancs út 30-32,12. kerület
 Kecskemét Domby Lajos utca,Kecskemét
 14. kerület Róna utca 152.,14. kerület
@@ -6825,6 +6856,7 @@ Győr Kazinczy utca,Győr
 Sormás Kossuth utca 35.,Sormás
 Ózd Újváros tér,Ózd
 Székesfehérvár Gáz utca,Székesfehérvár
+Szelevény József Attila út 5.,Szelevény
 4. kerület Ősz utca,4. kerület
 2. kerület Árpád fejedelem útja 3.,2. kerület
 Győr Kenus utca,Győr
@@ -6881,6 +6913,7 @@ Szolnok Szabadság tér,Szolnok
 Vecsés Budai Nagy Antal utca,Vecsés
 17. kerület Ferihegyi út 250.,17. kerület
 Tatabánya Dr. Vitális István utca 31.,Tatabánya
+Tordas Fejér megye,Tordas
 Pécs József Attila utca 29.,Pécs
 4. kerület Illek Vince utca 13.,4. kerület
 Martonvásár Estike utca,Martonvásár
@@ -6934,6 +6967,7 @@ Tapolca Nyugati városrész,Tapolca
 Zalaegerszeg Átalszegett utca 31.,Zalaegerszeg
 Komádi Széchenyi utca,Komádi
 Orosháza Belváros,Orosháza
+18. kerület Darányi Ignác utca 10.,18. kerület
 Bátonyterenye Iskola út,Bátonyterenye
 Kiskunfélegyháza Könyök utca 13.,Kiskunfélegyháza
 Kiskunfélegyháza Könyök utca,Kiskunfélegyháza
@@ -6946,6 +6980,7 @@ Szeged Láma utca,Szeged
 Sopron Táncsics utca,Sopron
 Zalaegerszeg Rákóczi Ferenc utca,Zalaegerszeg
 Pécs Fagyöngy utca 12.,Pécs
+Leányfalu Erkel köz 7.,Leányfalu
 Nyíregyháza Belső körút,Nyíregyháza
 Debrecen Miklós utca,Debrecen
 Dombóvár Ady Endre utca,Dombóvár
@@ -7055,6 +7090,7 @@ Eger Arany János utca,Eger
 18. kerület Felsőcsatári út,18. kerület
 Eger Nagyváradi utca,Eger
 Eger Barkóczy utca,Eger
+13. kerület Faludi utca 22.,13. kerület
 Encs Arany János út 1.,Encs
 Szekszárd Bezerédj utca,Szekszárd
 Tatabánya Kertvárosi lakótelep,Tatabánya
@@ -7242,6 +7278,7 @@ Dunakeszi Berzsenyi Dániel utca,Dunakeszi
 Mikepércs Hajdú-Bihar megye,Mikepércs
 Szigetszentmiklós Komp köz,Szigetszentmiklós
 13. kerület Victor Hugo utca 2-4,13. kerület
+Szarvas Jókai Mór utca,Szarvas
 Gyömrő Puki utca,Gyömrő
 Nagykőrös Bárány utca 12.,Nagykőrös
 Bátonyterenye Kossuth Lajos út 1.,Bátonyterenye
@@ -7349,6 +7386,7 @@ Kecskemét Wesselényi utca,Kecskemét
 Várpalota Róbert Károly út,Várpalota
 Eger Széchenyi István utca,Eger
 Kecskemét Klapka utca,Kecskemét
+Derekegyház Semmelweis utca 1.,Derekegyház
 9. kerület Knézich utca,9. kerület
 19. kerület Iskola köz,19. kerület
 Miskolc Kossuth Lajos utca,Miskolc
@@ -7365,6 +7403,7 @@ Sátoraljaújhely Fasor utca,Sátoraljaújhely
 3. kerület Apátkút utca,3. kerület
 Sárospatak Erkel Ferenc utca 11.,Sárospatak
 18. kerület Csontváry Kosztka Tivadar utca 37.,18. kerület
+9. kerület Lechner Ödön fasor 3.,9. kerület
 20. kerület Vaskapu utca,20. kerület
 Debrecen Füredi kapu,Debrecen
 Balmazújváros Veres Péter utca,Balmazújváros
@@ -7416,6 +7455,7 @@ Szeged Osztrovszky utca 21.,Szeged
 2. kerület Mechwart liget,2. kerület
 Balmazújváros Hajdú-Bihar megye,Balmazújváros
 Százhalombatta Gesztenyés út 19.,Százhalombatta
+Tápióbicske Rákóczi út,Tápióbicske
 Szeged Csanádi utca,Szeged
 9. kerület Napfény utca 22.,9. kerület
 Szeged Szent Miklós utca,Szeged
@@ -7827,9 +7867,11 @@ Vác Cserhát utca 5.,Vác
 Gádoros Bokányi Dezső utca 20.,Gádoros
 Gárdony Horgony utca 4.,Gárdony
 Pápa Vak Bottyán utca 11.,Pápa
+Kiskunhalas Tó utca 28.,Kiskunhalas
 20. kerület Zilah utca,20. kerület
 Diósd Ifjúság út,Diósd
 7. kerület Alsó erdősor 18.,7. kerület
+Fonyód Kupavezér utca,Fonyód
 Dunaújváros Alkotás utca,Dunaújváros
 Kiskőrös Petrovics István utca,Kiskőrös
 Nyíregyháza Színház utca,Nyíregyháza
@@ -7844,6 +7886,7 @@ Mór Vértes utca,Mór
 22. kerület Nagytétényi út 234.,22. kerület
 Halásztelek András utca,Halásztelek
 Debrecen Déri tér,Debrecen
+Hajdúsámson Ibolya utca,Hajdúsámson
 Bogács Borsod-Abaúj-Zemplén megye,Bogács
 Bicske Bogya Károly utca,Bicske
 7. kerület Thököly út 42.,7. kerület
@@ -7892,6 +7935,7 @@ Kecskemét Forradalom utca,Kecskemét
 Eger Csokonai Mihály utca,Eger
 Oroszlány Rákóczi Ferenc út 57.,Oroszlány
 Kalocsa Szent István király út,Kalocsa
+Nagykőrös Losonczi utca 4.,Nagykőrös
 Várbalog Győr-Moson-Sopron megye,Várbalog
 20. kerület Thököly utca,20. kerület
 Debrecen Nagybánya lakópark,Debrecen
@@ -7902,6 +7946,7 @@ Vác Vám utca 12.,Vác
 Ajka Márvány utca 5.,Ajka
 Sopron Úttörő utca 19/A,Sopron
 Székesfehérvár Rigó utca,Székesfehérvár
+Papkeszi Kossuth utca,Papkeszi
 Szeged Batthyány utca 25.,Szeged
 Úrkút Temető utca 3.,Úrkút
 12. kerület Kék Golyó utca 20.,12. kerület
@@ -7909,6 +7954,7 @@ Szeged Batthyány utca 25.,Szeged
 Szeged Szamos utca 10/b,Szeged
 2. kerület Pasaréti tér,2. kerület
 Zirc Fáy András utca 8.,Zirc
+Regéc Fő út 3.,Regéc
 Debrecen Olajütő utca,Debrecen
 Győr Ikva utca 9.,Győr
 Dunakeszi Repülőtéri utca,Dunakeszi
@@ -7941,6 +7987,7 @@ Székesfehérvár Távírda utca,Székesfehérvár
 14. kerület Wass Albert tér,14. kerület
 Nyíregyháza Petőfi tér,Nyíregyháza
 8. kerület Rökk Szilárd utca 11.,8. kerület
+Tarjánpuszta Baross tér 6.,Tarjánpuszta
 Kiskunhalas Vasút utca 20.,Kiskunhalas
 Bábolna Széchenyi István lakótelep,Bábolna
 Tarcal Ifjúsági lakótelep 20/4,Tarcal
@@ -8037,6 +8084,7 @@ Dunaharaszti Somogyváry Gyula utca,Dunaharaszti
 2. kerület Gyergyó utca 5.,2. kerület
 Budakalász Kőbányai út 27.,Budakalász
 Múcsony Népkert út 16 3/1,Múcsony
+Szigetszentmiklós Leadó utca,Szigetszentmiklós
 Zirc Kossuth Lajos utca,Zirc
 Tatabánya Cseri utca,Tatabánya
 Székesfehérvár Tolnai utca 46.,Székesfehérvár
@@ -8114,6 +8162,7 @@ Győr József Attila utca 4.,Győr
 11. kerület Bercsényi utca 26.,11. kerület
 Ózd Bolyki főút 20.,Ózd
 Esztergom Rudinai Molnár István utca 5.,Esztergom
+Visegrád Fő utca 137.,Visegrád
 8. kerület Strázsa köz,8. kerület
 Szentes Bacsó Béla utca 19/B,Szentes
 13. kerület Vág utca 2/b,13. kerület
@@ -8127,6 +8176,7 @@ Veresegyház Szent Erzsébet körút,Veresegyház
 23. kerület Fűzfa köz,23. kerület
 21. kerület Kőrösi Sándor utca 22.,21. kerület
 Balkány Ibolya utca 22.,Balkány
+Albertirsa Madách utca 5.,Albertirsa
 8. kerület Üllői út 60.,8. kerület
 Tatabánya Ifjúság út 52.,Tatabánya
 13. kerület Róbert Károly körút 14.,13. kerület
@@ -8153,6 +8203,7 @@ Szigetszentmiklós II. Rákóczi Ferenc utca,Szigetszentmiklós
 18. kerület Mikszáth Kálmán utca 2/b,18. kerület
 14. kerület Örs vezér tere,14. kerület
 8. kerület Kőfaragó utca 8.,8. kerület
+Egerszalók Széchenyi István út 51.,Eger
 11. kerület Péterhegyi út,11. kerület
 7. kerület Akácfa utca 41.,7. kerület
 Lovászi Zala megye,Lovászi
@@ -8193,6 +8244,7 @@ Szeged Budapesti körút 28/a,Szeged
 Szerencs Rákóczi út 135.,Szerencs
 5. kerület Váci utca 7.,5. kerület
 6. kerület Andrássy út 46.,6. kerület
+Kiskunhalas Nagy Szeder István utca 17.,Kiskunhalas
 14. kerület Cinkotai út 126.,14. kerület
 11. kerület Kakukkhegyi út 19.,11. kerület
 Tata Baji út 53.,Tata
@@ -8338,7 +8390,6 @@ Tatabánya Erdész utca,Tatabánya
 Nagykőrös Belváros,Nagykőrös
 Biatorbágy Viadukt lakópark,Biatorbágy
 Körösladány Esze Tamás utca 9.,Körösladány
-Szentendre Bükköspart,Szentendre
 Gyöngyös Kossuth Lajos utca 20/3.,Gyöngyös
 Székesfehérvár Koronázó tér,Székesfehérvár
 14. kerület Pancsova utca,14. kerület
@@ -8385,7 +8436,6 @@ Miskolc Malomszög utca,Miskolc
 8. kerület Homok utca,8. kerület
 Szeged Gát utca,Szeged
 Kiskunhalas Pozsony utca,Kiskunhalas
-Bazsi Jókai utca 4.,Bazsi
 Fertőd Eszterháza,Fertőd
 Sajóörös Bocskai út,Sajóörös
 11. kerület Edömér utca,11. kerület
@@ -8420,10 +8470,12 @@ Balatonboglár Alkotás utca,Balatonboglár
 14. kerület Táborhely utca,14. kerület
 Sopron Orsolya tér 1.,Sopron
 Szentlőrinc Liszt Ferenc utca,Szentlőrinc
+Elek Béke utca 3.,Elek
 17. kerület Szigetcsép utca,17. kerület
 13. kerület Visegrádi utca 109.,13. kerület
 Pécs Zsolnay Vilmos utca 117.,Pécs
 14. kerület Örs vezér útja,14. kerület
+Székesfehérvár Várkörút 20.,Székesfehérvár
 Zákányszék Csongrád megye,Zákányszék
 Berettyóújfalu Bessenyei lakótelep,Berettyóújfalu
 Siklós Sallai utca,Siklós
@@ -8644,6 +8696,7 @@ Cegléd Kertész utca 19.,Cegléd
 5. kerület Múzeum körút 2.,5. kerület
 8. kerület József körút 33.,8. kerület
 20. kerület Dobos utca,20. kerület
+Nyíregyháza Arany János utca 34.,Nyíregyháza
 Debrecen Gyimes utca,Debrecen
 7. kerület Péterfy Sándor utca 51.,7. kerület
 Debrecen József Attila-telep,Debrecen
@@ -8690,6 +8743,7 @@ Csömör Széchenyi utca,Csömör
 Győr Csanakfalu,Győr
 8. kerület Kisfaludy utca,8. kerület
 Jászberény Belváros,Jászberény
+11. kerület Hunyadi Mátyás út,11. kerület
 Miskolc Gesztenyés utca 1.,Miskolc
 18. kerület Királyhágó utca 81.,18. kerület
 Tata Thury György utca,Tata
@@ -8701,6 +8755,7 @@ Oroszlány Rákóczi Ferenc út 23.,Oroszlány
 Derecske Piac utca,Derecske
 6. kerület Bajnok utca 32.,6. kerület
 6. kerület Paulay Ede utca 3.,6. kerület
+Szigetszentmárton Dózsa György utca 1.,Szigetszentmárton
 3. kerület Óbor utca,3. kerület
 Bazsi Petőfi utca 3.,Bazsi
 6. kerület Király utca 112.,6. kerület
@@ -8766,9 +8821,11 @@ Kecskemét Mátyás király körút,Kecskemét
 15. kerület Szilas park 5.,15. kerület
 Dunaújváros Bocskai István utca 1/b,Dunaújváros
 Pécs Vilmos utca 6.,Pécs
+Visegrád Rákóczi utca 2/C,Visegrád
 7. kerület Péterfy Sándor utca 7.,7. kerület
 Miskolc Dóczy József utca 2/A,Miskolc
 Győr Pozsonyi út,Győr
+6. kerület Zichy Jenő utca 30.,6. kerület
 Szeged Egressy Béni utca 47.,Szeged
 Szentgotthárd Széchenyi út 11.,Szentgotthárd
 Bátonyterenye Liget út,Bátonyterenye
@@ -8985,6 +9042,7 @@ Regéc Fő út 4.,Regéc
 Ajka Fő út,Ajka
 2. kerület Pasaréti út 121-123.,2. kerület
 Fehérgyarmat Kertváros út,Fehérgyarmat
+2. kerület Forint utca 8.,2. kerület
 Székesfehérvár Toronysor 2.,Székesfehérvár
 7. kerület Csányi utca 9-11,7. kerület
 6. kerület Eötvös utca 28.,6. kerület
@@ -9068,6 +9126,7 @@ Balatonfüred Bartók Béla utca,Balatonfüred
 Bonyhád Fáy lakótelep 12.,Bonyhád
 Szeged Pósz Jenő utca,Szeged
 Miskolc Kilencedik utca,Miskolc
+Tornyiszentmiklós Kossuth Lajos utca 80.,Tornyiszentmiklós
 8. kerület Diószegi Sámuel utca 34.,8. kerület
 20. kerület Kossuth Lajos utca 31.,20. kerület
 Szeged Fél utca,Szeged
@@ -9089,6 +9148,7 @@ Sopron Béke út,Sopron
 Zalaegerszeg Pázmány Péter utca,Zalaegerszeg
 16. kerület Csipkés köz,16. kerület
 10. kerület Agyagfejtő utca,10. kerület
+6. kerület Teréz körút 18.,6. kerület
 14. kerület Limanova köz,14. kerület
 Nyíregyháza Kállói út 4.,Nyíregyháza
 Érd Györgyliget,Érd
@@ -9120,11 +9180,13 @@ Szigetszentmiklós Petőfi utca,Szigetszentmiklós
 Dunakeszi Dr. Bayer Emil utca 6.,Dunakeszi
 Eger Vörösmarty Mihály utca 1-3.,Eger
 4. kerület Izzó utca 13.,4. kerület
+Miskolc Füzes utca 48.,Miskolc
 11. kerület Daróczi út 62.,11. kerület
 9. kerület Ráday utca 41.,9. kerület
 Szeged Batthyány utca,Szeged
 11. kerület Kérő utca 10.,11. kerület
 Sopron Erzsébet utca 5.,Sopron
+Törökbálint Árpád utca 185/2,Törökbálint
 Simontornya Mátyás utca 7.,Simontornya
 12. kerület Szent Orbán tér,12. kerület
 Szekszárd Újváros,Szekszárd
@@ -9275,6 +9337,7 @@ Debrecen Mester utca 19.,Debrecen
 Dorog Zsigmondy Vilmos lakótelep 10.,Dorog
 Szigliget Hóvirág utca,Szigliget
 Tiszafüred Húszöles út 43.,Tiszafüred
+Szeged Szőregitanyák,Szeged
 Sopron Bécsidomb,Sopron
 Nagyatád Árpád utca 9.,Nagyatád
 9. kerület Mihálkovics utca,9. kerület
@@ -9301,6 +9364,7 @@ Eger Ráchegy,Eger
 2. kerület Fillér lépcső,2. kerület
 Miskolc Majláth,Miskolc
 Gyomaendrőd Árpád utca 21.,Gyomaendrőd
+11. kerület Kővirág sor,11. kerület
 Kecskemét III. Béla körút 4.,Kecskemét
 Nyíregyháza Korányi köz,Nyíregyháza
 2. kerület Tövis utca,2. kerület
@@ -9324,6 +9388,7 @@ Pusztaszabolcs Bajcsy-Zsilinszky Endre utca 46/1,Pusztaszabolcs
 8. kerület József körút 36.,8. kerület
 3. kerület Góbé utca,3. kerület
 3. kerület Borsmenta utca,3. kerület
+23. kerület Horgász part 21.,23. kerület
 Mátészalka Ráczkerti lakótelep,Mátészalka
 Mosonmagyaróvár Szekeres Richárd utca 13.,Mosonmagyaróvár
 Deszk Széchenyi István utca,Deszk
@@ -9349,6 +9414,7 @@ Győr Szent István út 43.,Győr
 Bicske Belváros,Bicske
 Komló Móricz Zsigmond utca,Komló
 4. kerület Hárfa utca,4. kerület
+Hódmezővásárhely Susán,Hódmezővásárhely
 Szentendre Kisfaludy utca,Szentendre
 15. kerület Zsókavár utca 51.,15. kerület
 Szekszárd Csokonai utca,Szekszárd
@@ -9405,10 +9471,10 @@ Debrecen Petőfi tér 19.,Debrecen
 Veresegyház Csillagfürt utca 1.,Veresegyház
 Zamárdi Dessewffy utca,Zamárdi
 Gávavencsellő Központ,Gávavencsellő
+Csépa Béke utca 5475,Csépa
 Dunakeszi Tisza utca,Dunakeszi
 Salgótarján Zöldfa út 7.,Salgótarján
 Gödöllő Táncsics Mihály út,Gödöllő
-Visegrád Rákóczi utca 2/C,Visegrád
 Győrújfalu Tó utca,Győr
 Kecskemét Mészáros Lázár tér,Kecskemét
 Érd Narancsfa utca,Érd
@@ -9419,6 +9485,7 @@ Rajka Dózsa György utca,Rajka
 Hegyeshalom Alkotmány utca,Hegyeshalom
 Mosonmagyaróvár Árpád utca,Mosonmagyaróvár
 Bük Golf út 6/A.,Bük
+Tác Kossuth Lajos utca 22.,Tác
 Hódmezővásárhely Szikáncs,Hódmezővásárhely
 Szeged Subasa,Szeged
 Gödöllő Haraszt,Gödöllő
@@ -9456,6 +9523,7 @@ Tatabánya Molnár János utca,Tatabánya
 2. kerület Máriaremetei út 184.,2. kerület
 Pécs Hőgyes Endre utca,Pécs
 Nagyfüged Ady Endre út 107.,Nagyfüged
+19. kerület Vásár tér,19. kerület
 6. kerület Paulay Ede utca 56.,6. kerület
 6. kerület Teréz körút 21.,6. kerület
 Kecskemét Nyíl utca,Kecskemét
@@ -9495,6 +9563,7 @@ Kaposvár Toldi Miklós utca,Kaposvár
 12. kerület Ágnes út 12.,12. kerület
 Gerendás Széchenyi utca 21.,Gerendás
 10. kerület Gép utca,10. kerület
+Röszke Felszabadulás utca 240.,Röszke
 5. kerület Váci utca 11.,5. kerület
 6. kerület Andrássy út 14.,6. kerület
 9. kerület Közraktár utca 12.,9. kerület
@@ -9604,7 +9673,6 @@ Hatvan Mártírok útja 4.,Hatvan
 Eger Petőfi Sándor utca,Eger
 Budaörs Budapesti út,Budaörs
 Győr Nagy Imre utca 36.,Győr
-2. kerület Tamara utca,2. kerület
 Komló Cserma utca 12.,Komló
 Debrecen Salétrom utca 28.,Debrecen
 Ózd Vasvár út 69.,Ózd
@@ -9859,6 +9927,7 @@ Balatongyörök Eötvös Károly utca 4.,Balatongyörök
 Nyírbátor Bajcsy-Zsilinszky utca 2.,Nyírbátor
 Tóalmás Fő utca 139/b,Tóalmás
 Hatvan Radnóti tér,Hatvan
+Zalahaláp Szőlőhegy,Zalahaláp
 Budaörs Új Bokréta Ház Budaörs,Budaörs
 Enying Fejér megye,Enying
 Miskolc Lévay József utca,Miskolc
@@ -9876,6 +9945,7 @@ Tiszakécske Szent Imre tér 3.,Tiszakécske
 13. kerület Hollán Ernő utca 8.,13. kerület
 Dorog Mária út,Dorog
 Bicske Kossuth utca,Bicske
+Bogács Kossuth utca 42.,Bogács
 Szombathely Hadnagy utca,Szombathely
 Hajdúhadház Festő utca 10/A,Hajdúhadház
 Alsóörs Csokonai utca 30.,Alsóörs
@@ -9898,6 +9968,7 @@ Makó Úri utca,Makó
 Békéscsaba Kazinczy utca 18.,Békéscsaba
 7. kerület Alpár utca,7. kerület
 Hajdúszoboszló Hőgyes utca 16.,Hajdúszoboszló
+Debrecen Kender utca,Debrecen
 14. kerület Zsálya utca 53-55,14. kerület
 18. kerület Kappel Emília utca,18. kerület
 Komló Bányász utca,Komló
@@ -9964,7 +10035,9 @@ Békés Ady Endre utca,Békés
 Ózd Jókai Mór utca 26.,Ózd
 Kecskemét Rákóczi út 3.,Kecskemét
 Miskolc Erdész utca 6/a,Miskolc
+Debrecen Szalóksámson utca 11.,Debrecen
 Szeged Tisza Lajos körút 31.,Szeged
+Érd Daróci utca,Érd
 Hajdúnánás Berzsenyi utca 7.,Hajdúnánás
 Hajdúhadház Dr. Madai Gyula utca 12.,Hajdúhadház
 7. kerület Rózsa utca 40.,7. kerület
@@ -10009,6 +10082,7 @@ Gyöngyös Jószerencsét utca,Gyöngyös
 Szentistván Vörösmarty utca 113.,Szentistván
 14. kerület Gizella út 1.,14. kerület
 Kaposmérő Somogy megye,Kaposmérő
+Dabas Tabáni út 8.,Dabas
 2. kerület nincs megadva,2. kerület
 Kaposvár Tisztviselőtelep,Kaposvár
 Szentendre Fecske utca,Szentendre
@@ -10054,7 +10128,6 @@ Tát Sinkovics köz,Tát
 Tata Fekete út,Tata
 Miskolc Zoltán utca,Miskolc
 Gyöngyöstarján Heves megye,Gyöngyös
-9. kerület Lechner Ödön fasor 3.,9. kerület
 Zagyvaszántó Heves megye,Zagyvaszántó
 Szigetvár Munkás utca,Szigetvár
 Kaposvár Füredi utca 24.,Kaposvár
