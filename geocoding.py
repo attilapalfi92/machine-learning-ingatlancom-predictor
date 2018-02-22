@@ -42,6 +42,7 @@ output_filename = 'geocode_results.csv'
 input_filename = "locations2.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
+backup_column_name = "Settlement"
 # Return Full Google Results? If True, full JSON results from Google are included in output
 RETURN_FULL_RESULTS = False
 
@@ -61,11 +62,19 @@ if address_column_name not in data.columns:
 # (remove this line / alter for your own dataset)
 data[address_column_name] = data[address_column_name].apply(lambda s: s + ',Hungary')
 addresses = (data[address_column_name]).tolist()
+data[backup_column_name] = data[backup_column_name].apply(lambda s: s + ',Hungary')
+settlements = (data[backup_column_name]).tolist()
 
 
 #------------------	FUNCTION DEFINITIONS ------------------------
 
-def get_google_results(address, api_key=None, return_full_response=False):
+def geocodeUrl(address, api_key=None):
+    geocode_url = "https://maps.googleapis.com/maps/api/geocode/json?address={}".format(address)
+    if api_key is not None:
+        geocode_url = geocode_url + "&key={}".format(api_key)
+    return geocode_url
+
+def get_google_results(address, settlement, api_key=None, return_full_response=False):
     """
     Get geocode results from Google Maps Geocoding API.
     
@@ -79,9 +88,7 @@ def get_google_results(address, api_key=None, return_full_response=False):
                     is useful if you'd like additional location details for storage or parsing later.
     """
     # Set up your Geocoding url
-    geocode_url = "https://maps.googleapis.com/maps/api/geocode/json?address={}".format(address)
-    if api_key is not None:
-        geocode_url = geocode_url + "&key={}".format(api_key)
+    geocode_url = geocodeUrl(address, api_key)
         
     # Ping google for the reuslts:
     results = requests.get(geocode_url)
@@ -90,15 +97,34 @@ def get_google_results(address, api_key=None, return_full_response=False):
     
     # if there's no results or an error, return empty results.
     if len(results['results']) == 0:
-        output = {
-            "formatted_address" : None,
-            "latitude": None,
-            "longitude": None,
-            "accuracy": None,
-            "google_place_id": None,
-            "type": None,
-            "postcode": None
-        }
+        geocode_url = geocodeUrl(settlement, api_key)
+        # Ping google for the reuslts:
+        results = requests.get(geocode_url)
+        # Results will be in JSON format - convert to dict using requests functionality
+        results = results.json()
+        
+        if len(results['results']) == 0:
+            output = {
+                "formatted_address" : None,
+                "latitude": None,
+                "longitude": None,
+                "accuracy": None,
+                "google_place_id": None,
+                "type": None,
+                "postcode": None
+            }
+        else:
+            answer = results['results'][0]
+            output = {
+                "formatted_address" : answer.get('formatted_address'),
+                "latitude": answer.get('geometry').get('location').get('lat'),
+                "longitude": answer.get('geometry').get('location').get('lng'),
+                "accuracy": answer.get('geometry').get('location_type'),
+                "google_place_id": answer.get("place_id"),
+                "type": ",".join(answer.get('types')),
+                "postcode": ",".join([x['long_name'] for x in answer.get('address_components') 
+                                      if 'postal_code' in x.get('types')])
+            }
     else:    
         answer = results['results'][0]
         output = {
@@ -132,13 +158,14 @@ if (test_result['status'] != 'OK') or (test_result['formatted_address'] != 'Lond
 # Create a list to hold results
 results = []
 # Go through each address in turn
-for address in addresses:
+for index, address in enumerate(addresses):
+    settlement = settlements[index]
     # While the address geocoding is not finished:
     geocoded = False
     while geocoded is not True:
         # Geocode the address with google
         try:
-            geocode_result = get_google_results(address, API_KEY, return_full_response=RETURN_FULL_RESULTS)
+            geocode_result = get_google_results(address, settlement, API_KEY, return_full_response=RETURN_FULL_RESULTS)
         except Exception as e:
             logger.exception(e)
             logger.error("Major error with {}".format(address))
