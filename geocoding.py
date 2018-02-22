@@ -37,7 +37,7 @@ API_KEY = 'AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'geocode_results.csv'
+output_filename = 'geocode_results2.csv'
 # Set your input file here
 input_filename = "locations2.csv"
 # Specify the column name in your input data that contains addresses here
@@ -66,6 +66,14 @@ data[backup_column_name] = data[backup_column_name].apply(lambda s: s + ',Hungar
 settlements = (data[backup_column_name]).tolist()
 
 
+http_proxy  = "http://localhost:5555"
+https_proxy = "https://localhost:5555"
+
+proxyDict = { 
+              "http"  : http_proxy, 
+              "https" : https_proxy
+            }
+
 #------------------	FUNCTION DEFINITIONS ------------------------
 
 def geocodeUrl(address, api_key=None):
@@ -91,7 +99,7 @@ def get_google_results(address, settlement, api_key=None, return_full_response=F
     geocode_url = geocodeUrl(address, api_key)
         
     # Ping google for the reuslts:
-    results = requests.get(geocode_url)
+    results = requests.get(geocode_url, proxies=proxyDict)
     # Results will be in JSON format - convert to dict using requests functionality
     results = results.json()
     
@@ -99,7 +107,7 @@ def get_google_results(address, settlement, api_key=None, return_full_response=F
     if len(results['results']) == 0:
         geocode_url = geocodeUrl(settlement, api_key)
         # Ping google for the reuslts:
-        results = requests.get(geocode_url)
+        results = requests.get(geocode_url, proxies=proxyDict)
         # Results will be in JSON format - convert to dict using requests functionality
         results = results.json()
         
