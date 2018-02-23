@@ -40,9 +40,9 @@ API_KEY = 'AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'geocode_results3.csv'
+output_filename = 'geocode_results4.csv'
 # Set your input file here
-input_filename = "locations3.csv"
+input_filename = "locations4.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
 backup_column_name = "Settlement"
