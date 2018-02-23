@@ -37,9 +37,9 @@ API_KEY = 'AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'geocode_results2.csv'
+output_filename = 'geocode_results1.csv'
 # Set your input file here
-input_filename = "locations2.csv"
+input_filename = "locations1.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
 backup_column_name = "Settlement"
@@ -73,6 +73,8 @@ proxyDict = {
               "http"  : http_proxy, 
               "https" : https_proxy
             }
+
+proxyDict = None
 
 #------------------	FUNCTION DEFINITIONS ------------------------
 
@@ -158,7 +160,7 @@ def get_google_results(address, settlement, api_key=None, return_full_response=F
 #------------------ PROCESSING LOOP -----------------------------
 
 # Ensure, before we start, that the API key is ok/valid, and internet access is ok
-test_result = get_google_results("London, England", API_KEY, RETURN_FULL_RESULTS)
+test_result = get_google_results("London, England", "London", API_KEY, RETURN_FULL_RESULTS)
 if (test_result['status'] != 'OK') or (test_result['formatted_address'] != 'London, UK'):
     logger.warning("There was an error when testing the Google Geocoder.")
     raise ConnectionError('Problem with test results from Google Geocode - check your API key and internet connection.')
