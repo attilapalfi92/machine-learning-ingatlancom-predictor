@@ -9,4 +9,4 @@ from processDataset import processDataset
 # Importing da dataset
 
 dataset = pd.read_csv('flat_raw.csv', ';')
-dataset = processDataset(dataset)
+X, y = processDataset(dataset)

@@ -5,10 +5,11 @@ Created on Thu Feb 22 14:59:08 2018
 @author: attila.palfi
 """
 
+import pandas as pd
+import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
 def processCategoricData(dataset):
-    dataset = dataset.drop('price').drop('id')
     
     dataset['ac'] = dataset['ac'].astype('category')
     dataset['attic'] = dataset['attic'].astype('category')
@@ -25,8 +26,11 @@ def processCategoricData(dataset):
     dataset['toilet'] = dataset['toilet'].astype('category')
     
     X = dataset.values
-    index = dataset.columns.get_loc('ac')
-    labelencoder = LabelEncoder()
-    labelencoder.fit_transform(X[:, index])
+    
+    for column in dataset.columns:
+        if dataset[column].dtype.name == 'category':
+            idx = dataset.columns.get_loc(column)
+            labelencoder = LabelEncoder()
+            X[:, idx] = labelencoder.fit_transform(X[:, idx])
     
     return X

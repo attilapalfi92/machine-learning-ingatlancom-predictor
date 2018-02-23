@@ -22,6 +22,7 @@ def processDataset (dataset):
     dataset = dataset[dataset['half_rooms'] < 12]
 
     y = dataset['price'].values
+    dataset = dataset.drop('id', 1).drop('price', 1)
     X = processCategoricData(dataset)
 #    
 #    floor_imputer = Imputer(missing_values="NaN", strategy='most_frequent')    
