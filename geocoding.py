@@ -36,13 +36,14 @@ logger.addHandler(ch)
 # Key1: AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg
 # Key2: AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg
 # Key3: AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw
-API_KEY = 'AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw'
+# Key4: AIzaSyCmuk_aDUtHZQs0B2dXLlzKtJCtWAwp6co
+API_KEY = 'AIzaSyCmuk_aDUtHZQs0B2dXLlzKtJCtWAwp6co'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'geocode_results4.csv'
+output_filename = 'geocode_results5.csv'
 # Set your input file here
-input_filename = "locations4.csv"
+input_filename = "locations5.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
 backup_column_name = "Settlement"
