@@ -3,32 +3,23 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from processPrices import processPrices
-from processDataset import processDataset
+from processCategoricData import processCategoricData
+from processNumericData import processNumericData
+import math
 
 # Importing da dataset
+dataset = pd.read_csv('data/flats.csv')
+dataset, X, y = processNumericData(dataset)
+dataset, X = processCategoricData(dataset, X)
 
-dataset = pd.read_csv('data/flat_raw.csv', ';')
-dataset = processDataset(dataset)
-
-y = dataset['price'].values
-dataset = dataset.drop('id', 1).drop('price', 1)
-X = processCategoricData(dataset)
-
-# imputing
-#floor_imputer = Imputer(missing_values="NaN", strategy='most_frequent')    
-#floor_imputer.fit(X[:, dataset.columns.get_loc('floor')])
-
-# categorical data
-X = dataset.values
-    categorical_idxs = []
-    for column in dataset.columns:
-        if dataset[column].dtype.name == 'category':
-            idx = dataset.columns.get_loc(column)
-            print(idx)
-            categorical_idxs.append(idx)
-            labelencoder = LabelEncoder()
-            X[:, idx] = labelencoder.fit_transform(X[:, idx])
-    
-    onehotencoder = OneHotEncoder(categorical_features = categorical_idxs)
-    X = onehotencoder.fit_transform(X).toarray()
+i = 0
+j = 0
+for row in X:
+    j = 0
+    for value in row:
+        value
+        if (math.isnan(value)):
+            print('i: ' + str(i))
+            print('j: ' + str(j))
+        j = j + 1
+    i = i + 1

@@ -12,7 +12,6 @@ from processCategoricData import processCategoricData
 def processDataset (dataset):
 #    dataset = dataset.drop('id', 1)
     
-    dataset = processLocation(dataset)
     dataset = processNumericData(dataset)
     
     # some clearing
@@ -21,4 +20,4 @@ def processDataset (dataset):
     dataset = dataset[dataset['rooms'] < 12]
     dataset = dataset[dataset['half_rooms'] < 12]
     
-    return X, y
+    return dataset

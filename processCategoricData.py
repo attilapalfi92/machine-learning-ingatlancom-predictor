@@ -5,11 +5,9 @@ Created on Thu Feb 22 14:59:08 2018
 @author: attila.palfi
 """
 
-import pandas as pd
-import numpy as np
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
-def processCategoricData(dataset):
+def processCategoricData(dataset, X):
     
     dataset['ac'] = dataset['ac'].astype('category')
     dataset['attic'] = dataset['attic'].astype('category')
@@ -25,4 +23,17 @@ def processCategoricData(dataset):
     dataset['sub_type'] = dataset['sub_type'].astype('category')
     dataset['toilet'] = dataset['toilet'].astype('category')
 
-    return X
+    # encoding categorical data
+    categorical_idxs = []
+    for column in dataset.columns:
+        if dataset[column].dtype.name == 'category':
+            idx = dataset.columns.get_loc(column)
+            print(idx)
+            categorical_idxs.append(idx)
+            labelencoder = LabelEncoder()
+            X[:, idx] = labelencoder.fit_transform(X[:, idx])
+    
+    onehotencoder = OneHotEncoder(categorical_features = categorical_idxs)
+    X = onehotencoder.fit_transform(X).toarray()
+
+    return dataset, X
