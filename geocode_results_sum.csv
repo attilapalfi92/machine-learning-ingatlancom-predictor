@@ -1,4 +1,4 @@
-,accuracy,formatted_address,google_place_id,input_string,latitude,longitude,number_of_results,postcode,status,type
+i,accuracy,formatted_address,google_place_id,input_string,latitude,longitude,number_of_results,postcode,status,type
 0,GEOMETRIC_CENTER,"Budapest, Szegedi út, Hungary",,"13. kerület Szegedi út,Hungary",47.5289831,19.0823481,1,,OK,route
 1,APPROXIMATE,"Budapest, District XIII., Hungary",ChIJ8W1kD8LbQUcRcl4W5sbzEYA,"13. kerület Corner 21,Hungary",47.5355105,19.0709266,1,,OK,"political,sublocality,sublocality_level_1"
 2,ROOFTOP,"Balatonlelle, Köztársaság u. 11, 8638 Hungary",ChIJExnPJm-uaUcRJEnsLMEx4dI,"Balatonlelle Lelle Resort,Hungary",46.7888138,17.6985404,1,8638,OK,"establishment,lodging,point_of_interest"
@@ -9997,3 +9997,183 @@
 1997,GEOMETRIC_CENTER,"Dunaújváros, Lajos király krt., 2400 Hungary",ChIJi0AeyWsXQkcRWGyPe5J10k0,"Dunaújváros Lajos király körút,Hungary",46.9591897,18.9184268,1,2400,OK,route
 1998,APPROXIMATE,"Őrbottyán, 2162 Hungary",ChIJWzRZBXnNQUcRA2i2_4fp-Q8,"Őrbottyán Pest megye,Hungary",47.685806,19.278376,1,2162,OK,"locality,political"
 1999,GEOMETRIC_CENTER,"Pécs, Köztársaság tér, 7623 Hungary",ChIJwdlkg5uxQkcR9CZCtdMkVk8,"Pécs Köztársaság tér,Hungary",46.0691392,18.221744,1,7623,OK,route
+0,ROOFTOP,"Nagyrécse, Deák Ferenc u. 28, 8756 Hungary",ChIJEVK_PybtaEcRTbim0OVZ5Cg,"Nagyrécse Deák Ferenc utca 28.,Hungary",46.49116009999999,17.0481443,1,8756,OK,street_address
+1,ROOFTOP,"Sellye, Ifjúság út 7, 7960 Hungary",ChIJmROUTxhYXUcRvDXcRfcF5wM,"Sellye Ifjúság út 7.,Hungary",45.87368499999999,17.847627,1,7960,OK,street_address
+2,GEOMETRIC_CENTER,"Encs, Fő út, 3860 Hungary",ChIJeScK99ZAP0cRXOhbGuFFxZg,"Encs Fő út,Hungary",48.3450381,21.0980486,1,3860,OK,route
+3,ROOFTOP,"Dunaújváros, Gábor Áron u. 17, 2400 Hungary",ChIJw2OFTGQXQkcRl8wNBqy9dOI,"Dunaújváros Gábor Áron utca 17.,Hungary",46.96632719999999,18.9286302,1,2400,OK,street_address
+4,GEOMETRIC_CENTER,"Sátoraljaújhely, Illyés Gyula u., 3980 Hungary",ChIJM60PVIPOOEcRCsuiaXcKKtc,"Sátoraljaújhely Illyés Gyula utca,Hungary",48.3902052,21.6580932,1,3980,OK,route
+5,ROOFTOP,"Budapest, Teréz krt. 35, 1067 Hungary",ChIJAdHufm3cQUcRofhhp2JB3AE,"6. kerület Teréz körút 35.,Hungary",47.5074419,19.0606211,1,1067,OK,street_address
+6,ROOFTOP,"Budapest, Klauzál tér 2, 1072 Hungary",ChIJbZUDVGjcQUcRvNxmnItfaSY,"7. kerület Klauzál tér 2.,Hungary",47.4993331,19.063148,1,1072,OK,street_address
+7,ROOFTOP,"Budapest, Bajnok u. 16, 1063 Hungary",ChIJefAB-3PcQUcRh4SWualOeXA,"6. kerület Bajnok utca 16.,Hungary",47.5112259,19.0665541,1,1063,OK,street_address
+8,ROOFTOP,"Nyíregyháza, Körte u. 22, 4400 Hungary",ChIJnSizopefOEcRfh6bn69ZOd4,"Nyíregyháza Körte utca 22.,Hungary",47.9605316,21.7153966,1,4400,OK,street_address
+9,ROOFTOP,"Szeged, Kereszttöltés u. 33, 6723 Hungary",ChIJiSDkZBmIREcRelYB4T4-GNw,"Szeged Kereszttöltés utca 33.,Hungary",46.266361,20.168471,1,6723,OK,street_address
+10,ROOFTOP,"Budapest, Ibrahim u. 12, 1113 Hungary",ChIJ_VcMb8ndQUcR3t3Uc5Yldmc,"11. kerület Ibrahim utca 12.,Hungary",47.476457,19.030816,1,1113,OK,street_address
+11,ROOFTOP,"Sátoraljaújhely, Kazinczy u. 31, 3980 Hungary",ChIJLbVWPCvMOEcRPltqpvrynnk,"Sátoraljaújhely Kazinczy utca 31.,Hungary",48.3997267,21.6536574,1,3980,OK,street_address
+12,ROOFTOP,"Kecskemét, Arany János u. 10, 6000 Hungary",ChIJ6YSg3RDaQ0cRrghN-1k7ezA,"Kecskemét Arany János utca 10.,Hungary",46.9091211,19.6912688,1,6000,OK,street_address
+13,ROOFTOP,"Szeged, Gutenberg u. 24, 6722 Hungary",ChIJMV4eMHSIREcRiDx7YnrfHhY,"Szeged Gutenberg utca 24.,Hungary",46.2538406,20.1411575,1,6722,OK,street_address
+14,GEOMETRIC_CENTER,"Nyíregyháza, István u., 4400 Hungary",ChIJe_SRS7ufOEcR35ZxKhiTq4c,"Nyíregyháza István utca,Hungary",47.9593473,21.7268496,1,4400,OK,route
+15,GEOMETRIC_CENTER,"Csopak, Örkény István stny., 8229 Hungary",ChIJaVIZ9ZG9aUcR-ZTThJr92QA,"Csopak Örkény István sétány,Hungary",46.9671794,17.9303632,1,8229,OK,route
+16,ROOFTOP,"Miskolc, Feszty Árpád u. 1, 3525 Hungary",ChIJw0IrduGfQEcRPE5zwElSG9Q,"Miskolc Feszty Árpád utca 1/b,Hungary",48.1096825,20.7770127,1,3525,OK,street_address
+17,GEOMETRIC_CENTER,"Oroszlány, József Attila u., 2840 Hungary",ChIJ3QpE7FU5akcR8ZqkkbWfw9I,"Oroszlány József Attila utca,Hungary",47.4843268,18.2992187,1,2840,OK,route
+18,GEOMETRIC_CENTER,"Gyömrő, Pátria utca, 2230 Hungary",ChIJ8eaCKGa-QUcRxQBqSm5scrs,"Gyömrő Pátria utca 8.,Hungary",47.406212,19.408808,1,2230,OK,route
+19,GEOMETRIC_CENTER,"Pécs, Hősök tere, 7628 Hungary",ChIJA60hEYiwQkcRnblxaSeNf4s,"Pécs Hősök tere,Hungary",46.11812980000001,18.2625245,1,7628,OK,route
+20,GEOMETRIC_CENTER,"Győr, Lajta út, 9024 Hungary",ChIJx3DklnTAa0cRCXVOS9bhGuk,"Győr Lajta út,Hungary",47.6671696,17.6395419,1,9024,OK,route
+21,GEOMETRIC_CENTER,"Tiszaújváros, Deák Ferenc tér, 3580 Hungary",ChIJ8-nMRHmuQEcRmyD_uujuXoY,"Tiszaújváros Deák Ferenc tér,Hungary",47.9336704,21.0318876,1,3580,OK,route
+22,GEOMETRIC_CENTER,"Egercsehi, Pataksor út, 3341 Hungary",ChIJrVhQM1d9QEcRfbKOCAbeQWk,"Egercsehi Pataksor út,Hungary",48.0521918,20.2558815,1,3341,OK,route
+23,RANGE_INTERPOLATED,"Sopron, Rózsa u. 23, 9400 Hungary",EihTb3Byb24sIFLDs3pzYSB1LiAyMywgOTQwMCBNYWd5YXJvcnN6w6Fn,"Sopron Rózsa utca 23.,Hungary",47.6885687,16.5928223,1,9400,OK,street_address
+24,ROOFTOP,"Debrecen, Zöld u. 6, 4028 Hungary",ChIJb-9dE8ENR0cR0_LGd_pNWXI,"Debrecen Zöld utca 6.,Hungary",47.5485141,21.6450194,1,4028,OK,street_address
+25,ROOFTOP,"Szigetvár, Szent István ltp. 19, 7900 Hungary",ChIJ6UDy5WQHaEcRExoXkcfOjOc,"Szigetvár Szent István lakótelep 19.,Hungary",46.055153,17.788363,1,7900,OK,street_address
+26,ROOFTOP,"Acsa, Mogyorós út 1, 2683 Hungary",ChIJ-WPf_44xQEcRICUZxPd4PlM,"Acsa Mogyorós út 1.,Hungary",47.795069,19.3893309,1,2683,OK,street_address
+27,ROOFTOP,"Budapest, Cinkotai út 95a, 1141 Hungary",ChIJ2_lFckDbQUcRca5yYgyZuXM,"14. kerület Cinkotai út 95/a,Hungary",47.5255327,19.1313082,1,1141,OK,street_address
+28,ROOFTOP,"Budapest, Üllői út 11-13, 1091 Hungary",ChIJG-u2RlrcQUcR2r5MpPLVYKM,"9. kerület Üllői út 11.,Hungary",47.4884093,19.0638914,1,1091,OK,street_address
+29,GEOMETRIC_CENTER,"Siófok, Küszhegyi út, 8600 Hungary",ChIJa-5A_KPAaUcR7nGbcJYHAO8,"Siófok Küszhegyi út,Hungary",46.895868,18.0413395,1,8600,OK,route
+30,ROOFTOP,"Budapest, Nagytétényi út 90, 1222 Hungary",ChIJ6WowoKXnQUcRbIlB8U27HK4,"22. kerület Nagytétényi út 90.,Hungary",47.412278,19.031804,1,1222,OK,street_address
+31,ROOFTOP,"Budapest, Baross u. 118, 1089 Hungary",ChIJO7qA2vPcQUcRHGhBILrKHxY,"8. kerület Baross utca 118.,Hungary",47.48888410000001,19.0840541,1,1089,OK,street_address
+32,ROOFTOP,"Eger, Gólya u. 7, 3300 Hungary",ChIJM_6hsZyNQEcRx2tp5kU4nLU,"Eger Gólya utca 7.,Hungary",47.901015,20.381205,1,3300,OK,street_address
+33,GEOMETRIC_CENTER,"Tököl, Ráckevei út, 2316 Hungary",ChIJ7SzVcCDlQUcRbaeHcWqNpdE,"Tököl Ráckevei út,Hungary",47.3079397,18.9482769,1,2316,OK,route
+34,GEOMETRIC_CENTER,"Békés, Ady Endre u., 5630 Hungary",ChIJc1_pTIGBRkcR3V4iQx7Y2cw,"Békés Ady Endre utca,Hungary",46.77063220000001,21.1269025,1,5630,OK,route
+35,ROOFTOP,"Ózd, Jókai Mór u. 26, 3600 Hungary",ChIJUWZPc-GAP0cRuDjy_o8uWHg,"Ózd Jókai Mór utca 26.,Hungary",48.2368613,20.3142063,1,3600,OK,street_address
+36,ROOFTOP,"Kecskemét, Rákóczi út 3, 6000 Hungary",ChIJ-9E5bRfaQ0cRxyLHd59KxmI,"Kecskemét Rákóczi út 3.,Hungary",46.9088909,19.695888,1,6000,OK,street_address
+37,ROOFTOP,"Miskolc, Erdész u. 6, 3535 Hungary",ChIJ1x6z43SeQEcRiL9yKo8QesU,"Miskolc Erdész utca 6/a,Hungary",48.10793959999999,20.6798558,1,3535,OK,street_address
+38,ROOFTOP,"Debrecen, Szalóksámson u. 11, 4033 Hungary",ChIJV04byDEMR0cR7-OmGnDTBPQ,"Debrecen Szalóksámson utca 11.,Hungary",47.5374952,21.6727708,1,4033,OK,street_address
+39,ROOFTOP,"Szeged, Tisza Lajos krt. 31, 6721 Hungary",ChIJIc5cMQ2IREcR_VIe2pcWIYQ,"Szeged Tisza Lajos körút 31.,Hungary",46.256727,20.151035,1,6721,OK,street_address
+40,GEOMETRIC_CENTER,"Érd, Daróci u., 2030 Hungary",ChIJz8blUp_hQUcRLyJsuCSxMsI,"Érd Daróci utca,Hungary",47.40394,18.8894135,1,2030,OK,route
+41,ROOFTOP,"Hajdúnánás, Berzsenyi u. 7, 4080 Hungary",ChIJMYc8mEdbR0cRacHPy9sM5Do,"Hajdúnánás Berzsenyi utca 7.,Hungary",47.8333375,21.430884,1,4080,OK,street_address
+42,ROOFTOP,"Hajdúhadház, Dr. Madai Gyula u. 12, 4242 Hungary",ChIJH9SC49ZtR0cRDMQelHAjMjU,"Hajdúhadház Dr. Madai Gyula utca 12.,Hungary",47.6882527,21.6688069,1,4242,OK,street_address
+43,RANGE_INTERPOLATED,"Budapest, Rózsa u. 40, 1077 Hungary",EipCdWRhcGVzdCwgUsOzenNhIHUuIDQwLCAxMDc3IE1hZ3lhcm9yc3rDoWc,"7. kerület Rózsa utca 40.,Hungary",47.5061014,19.0707458,1,1077,OK,street_address
+44,GEOMETRIC_CENTER,"Fülöp, József Attila u., 4266 Hungary",ChIJx1MQ3UKZR0cRLyEhLNoOWeo,"Fülöp József Attila utca,Hungary",47.6026643,22.0552531,1,4266,OK,route
+45,ROOFTOP,"Veszprém, Damjanich János u. 7, 8200 Hungary",ChIJA1-sCo6aaUcRFp2ElR2CHNw,"Veszprém Damjanich János utca 7.,Hungary",47.1090092,17.9214354,1,8200,OK,street_address
+46,ROOFTOP,"Alacska, Dózsa u. 12, 3779 Hungary",ChIJLwBBRVhjP0cRibz6sHcS2Y0,"Alacska Dózsa utca 12.,Hungary",48.21653500000001,20.6530098,1,3779,OK,street_address
+47,GEOMETRIC_CENTER,"Győr, Klapka u., 9027 Hungary",ChIJkdkHV76_a0cRdb6vfkAbD9A,"Győr Klapka utca,Hungary",47.6911353,17.6566453,1,9027,OK,route
+48,ROOFTOP,"Tatabánya, Dr. Vitális István u. 24, 2800 Hungary",ChIJA-iXVClHakcR71KK8TCn0Hs,"Tatabánya Dr. Vitális István utca 24.,Hungary",47.5891095,18.3670457,1,2800,OK,street_address
+49,GEOMETRIC_CENTER,"Sopron, Udvarnoki u., 9400 Hungary",ChIJ4QawDqk8bEcRt63K_rRO6B0,"Sopron Udvarnoki utca,Hungary",47.6777386,16.5828672,1,9400,OK,route
+50,ROOFTOP,"Szeged, Kálvária sugárút 28, 6722 Hungary",ChIJ7cHw-XaIREcRHkPkTyXyVu4,"Szeged Kálvária sugárút 28.,Hungary",46.2516587,20.139183,1,6722,OK,street_address
+51,GEOMETRIC_CENTER,"Zamárdi, Kossuth Lajos köz, 8621 Hungary",ChIJiRHjODm5aUcRGW_4ekoiJXA,"Zamárdi Kossuth Lajos köz,Hungary",46.8824269,17.9439161,1,8621,OK,route
+52,GEOMETRIC_CENTER,"Szeged, Bal fasor, 6726 Hungary",ChIJc9k1RkSIREcRb2s4fHHJ9PE,"Szeged Bal fasor,Hungary",46.2469735,20.1708397,1,6726,OK,route
+53,RANGE_INTERPOLATED,"Esztergom, Tölgyesi út 16, 2500 Hungary",Ei9Fc3p0ZXJnb20sIFTDtmxneWVzaSDDunQgMTYsIDI1MDAgTWFneWFyb3JzesOhZw,"Esztergom Tölgyesi út 16.,Hungary",47.7768841,18.7593872,1,2500,OK,street_address
+54,GEOMETRIC_CENTER,"Szombathely, József Attila u., 9700 Hungary",ChIJGQRK5bG5bkcRWFwZSseq4lo,"Szombathely József Attila utca,Hungary",47.2295364,16.609137,1,9700,OK,route
+55,ROOFTOP,"Szeged, Csongrádi sgrt. 39, 6723 Hungary",ChIJPypI0giIREcR0cOyCvokjbs,"Szeged Csongrádi sugárút 39.,Hungary",46.264299,20.151319,1,6723,OK,street_address
+56,ROOFTOP,"Sümeg, Bem u. 12, 8330 Hungary",ChIJ6TySj7UWaUcR4Unv6_9DB-k,"Sümeg Bem utca 12.,Hungary",46.9812863,17.2856577,1,8330,OK,street_address
+57,ROOFTOP,"Túrkeve, Kiss Ernő u. 3, 5420 Hungary",ChIJZTjpkI23RkcRjVcGyjD3aZ8,"Túrkeve Kiss Ernő utca 3.,Hungary",47.106126,20.7596569,1,5420,OK,street_address
+58,GEOMETRIC_CENTER,"Budapest, Krecsányi u., 1025 Hungary",ChIJB1UlpdPeQUcRD7EUhxjLV8I,"2. kerület Krecsányi utca,Hungary",47.526696,18.9913765,1,1025,OK,route
+59,GEOMETRIC_CENTER,"Budaörs, Nádasdűlő stny., 2040 Hungary",ChIJPwC_4IHgQUcRiE3oxTVJByI,"Budaörs Nádasdűlő sétány,Hungary",47.45710740000001,18.93913,1,2040,OK,route
+60,ROOFTOP,"Budapest, Dob u. 71, 1077 Hungary",ChIJH4DHWG_cQUcR6RDmfOvjXqg,"7. kerület Dob utca 71.,Hungary",47.5021915,19.0683214,1,1077,OK,street_address
+61,ROOFTOP,"Győr, Baross Gábor út 79, 9024 Hungary",ChIJ7_-aoPS_a0cRvIhcDE6AS3U,"Győr Baross Gábor út 79.,Hungary",47.6760542,17.6411725,1,9024,OK,street_address
+62,ROOFTOP,"Szeged, Szent Ferenc u. 17, 6725 Hungary",ChIJjThA3nyIREcRYxh19qt-q30,"Szeged Szent Ferenc utca 17.,Hungary",46.2411593,20.140269,1,6725,OK,street_address
+63,RANGE_INTERPOLATED,"Szolnok, Városmajor út 59, 5000 Hungary",Ei9Tem9sbm9rLCBWw6Fyb3NtYWpvciDDunQgNTksIDUwMDAgTWFneWFyb3JzesOhZw,"Szolnok Városmajor út 59B/A,Hungary",47.1815667,20.2062598,1,5000,OK,street_address
+64,ROOFTOP,"Budapest, Vágóhíd u. 11-13, 1097 Hungary",ChIJWZHkQeLcQUcRRUBvJezfMbs,"9. kerület Vágóhíd utca 11.,Hungary",47.47441999999999,19.083936,1,1097,OK,street_address
+65,ROOFTOP,"Budapest, Árpád u. 6, 1215 Hungary",ChIJQaGFSvbnQUcRgskPcx5bZjM,"21. kerület Árpád utca 6.,Hungary",47.4326158,19.075494,1,1215,OK,street_address
+66,ROOFTOP,"Budapest, Juharos sor 36, 1188 Hungary",ChIJa6UOw_7BQUcRGejPCX1QWBU,"18. kerület Juharos sor 36.,Hungary",47.415586,19.20568,1,1188,OK,street_address
+67,GEOMETRIC_CENTER,"Sopron, II. Rákóczi Ferenc u., 9400 Hungary",ChIJNYslHac8bEcRZruWtrTD468,"Sopron II. Rákóczi Ferenc utca,Hungary",47.6835254,16.5856161,1,9400,OK,route
+68,GEOMETRIC_CENTER,"Gyömrő, Dózsa György út, 2230 Hungary",ChIJMbojFwK_QUcR3o3bB2oHTZw,"Gyömrő Dózsa György út,Hungary",47.4263863,19.3837981,1,2230,OK,route
+69,ROOFTOP,"Szarvas, Szabadság út 12, 5540 Hungary",ChIJt8jonTeoRkcRCkjGTfL14PU,"Szarvas Szabadság út 12.,Hungary",46.863788,20.5434539,1,5540,OK,street_address
+70,APPROXIMATE,"Dunaföldvár, 7020 Hungary",ChIJ4-82xhRAQkcRdxh6YBPd4Zo,"Dunaföldvár Tolna megye,Hungary",46.806202,18.9167877,1,7020,OK,"locality,political"
+71,GEOMETRIC_CENTER,"Érd, Cédrusfa u., 2030 Hungary",ChIJ3dBVeQzhQUcRONJE1BVDSXc,"Érd Cédrusfa utca,Hungary",47.4050378,18.9055405,1,2030,OK,route
+72,ROOFTOP,"Budapest, Kertész u. 50, 1073 Hungary",ChIJA33b2W7cQUcR19lgWb6iYtM,"7. kerület Kertész utca 50.,Hungary",47.5026368,19.0645538,1,1073,OK,street_address
+73,ROOFTOP,"Szeged, Hattyas u. 3, 6725 Hungary",ChIJEc8A4YeIREcRyiiJB7BsJNA,"Szeged Hattyas utca 3.,Hungary",46.23756299999999,20.139106,1,6725,OK,street_address
+74,ROOFTOP,"Csorvás, Kölcsey u. 25, 5920 Hungary",ChIJ4QooTNUkREcR0_dDlUCDkRQ,"Csorvás Kölcsey utca 25.,Hungary",46.6306173,20.831667,1,5920,OK,street_address
+75,GEOMETRIC_CENTER,"Miskolc, Iván u., 3534 Hungary",ChIJvRJlbESeQEcRLbsM5XxengU,"Miskolc Iván utca,Hungary",48.0977943,20.7083407,1,3534,OK,route
+76,GEOMETRIC_CENTER,"Kiskunhalas, Szent István utca, 6400 Hungary",ChIJOc5GE-agQ0cRR8_XiifHeik,"Kiskunhalas Szent István utca,Hungary",46.4279488,19.4810501,1,6400,OK,route
+77,GEOMETRIC_CENTER,"Nagykálló, Zrínyi Miklós út, 4320 Hungary",ChIJk7kwT8NiR0cRCiUustmpC4Q,"Nagykálló Zrínyi Miklós út,Hungary",47.87478249999999,21.8447053,1,4320,OK,route
+78,GEOMETRIC_CENTER,"Budapest, Pál Apostol u., 1239 Hungary",ChIJY35Hw1foQUcRpJ8a2ZVI3Ik,"23. kerület Pál apostol utca,Hungary",47.3878545,19.109621,1,1239,OK,route
+79,ROOFTOP,"Budapest, Hegyalja út 1, 1016 Hungary",ChIJWw59HTHcQUcRA_CWMmuIX-w,"1. kerület Hegyalja út 1.,Hungary",47.4892129,19.0344538,1,1016,OK,street_address
+80,ROOFTOP,"Budapest, Hungária krt. 136, 1143 Hungary",ChIJE-b-dILcQUcRJX6B4eU05TE,"14. kerület Hungária körút 136.,Hungary",47.51106799999999,19.098883,1,1143,OK,street_address
+81,GEOMETRIC_CENTER,"Gyöngyös, Jószerencsét u., 3200 Hungary",ChIJfzIC0a5QQEcRiL_nk0JdbsQ,"Gyöngyös Jószerencsét utca,Hungary",47.7684405,19.9224184,1,3200,OK,route
+82,ROOFTOP,"Szentistván, Vörösmarty u. 113, 3418 Hungary",ChIJ2V5IvtbAQEcRbfuSYKkqer4,"Szentistván Vörösmarty utca 113.,Hungary",47.7670954,20.6558127,1,3418,OK,street_address
+83,ROOFTOP,"Budapest, Gizella út 1, 1143 Hungary",ChIJv-COCpvcQUcRy-3jI41onhc,"14. kerület Gizella út 1.,Hungary",47.5040456,19.1029839,1,1143,OK,street_address
+84,APPROXIMATE,"Kaposmérő, 7521 Hungary",ChIJYwKIH0QVaEcRDsT_jaPCNPo,"Kaposmérő Somogy megye,Hungary",46.3592364,17.7017126,1,7521,OK,"locality,political"
+85,ROOFTOP,"Dabas, Tabáni u. 8, 2371 Hungary",ChIJ2SbFT8CNQUcRLHPKkxSzEB4,"Dabas Tabáni út 8.,Hungary",47.215581,19.27113,1,2371,OK,street_address
+86,APPROXIMATE,"Budapest, District II, Hungary",ChIJLYpkN9rYQUcRUNUeDCnEAAU,"2. kerület nincs megadva,Hungary",47.5393329,18.986934,1,,OK,"political,sublocality,sublocality_level_1"
+87,GEOMETRIC_CENTER,"Budapest, Kaposvár u., 1117 Hungary",ChIJbyswV6_dQUcRvI8nWa3weF4,"Kaposvár Tisztviselőtelep,Hungary",47.4687777,19.0518407,1,1117,OK,route
+88,GEOMETRIC_CENTER,"Szentendre, Fecske u., 2000 Hungary",ChIJi3e_tdHVQUcR4Ltf_leBLgw,"Szentendre Fecske utca,Hungary",47.68625549999999,19.0818119,1,2000,OK,route
+89,ROOFTOP,"Nagytarcsa, Nyárfa u. 7, 2142 Hungary",ChIJ5-npl9TFQUcRJEe4VJzE2FI,"Nagytarcsa Füzesliget lakópark,Hungary",47.52681339999999,19.2709983,1,2142,OK,"establishment,point_of_interest"
+90,GEOMETRIC_CENTER,"Pusztaszabolcs, Szabolcs liget, 2490 Hungary",ChIJcRDa5pEBQkcRKwr2f6xDY9A,"Pusztaszabolcs Szabolcs liget,Hungary",47.1376497,18.7583006,1,2490,OK,route
+91,GEOMETRIC_CENTER,"Kisapostag, Széchenyi István u., 2428 Hungary",ChIJNYIUT3MWQkcRcYnfwdMbUKE,"Kisapostag Széchenyi István utca,Hungary",46.8989316,18.9301781,1,2428,OK,route
+92,ROOFTOP,"Pápa, Deák Ferenc u. 1, 8500 Hungary",ChIJhVyR0whhaUcRQFg8Zs-oMp8,"Pápa Deák Ferenc utca 1.,Hungary",47.3291378,17.4687337,1,8500,OK,street_address
+93,ROOFTOP,"Budapest, Fiastyúk u. 28, 1139 Hungary",ChIJ86m1McbbQUcRhKqxejOr5Do,"13. kerület Fiastyúk utca 28.,Hungary",47.5445594,19.0785603,1,1139,OK,street_address
+94,ROOFTOP,"Budapest, Nagybányai út 25, 1025 Hungary",ChIJc8Ff1yzZQUcRbaVJQ43igGE,"2. kerület Nagybányai út 25.,Hungary",47.5298285,18.9944844,1,1025,OK,street_address
+95,ROOFTOP,"Budapest, Hengermalom út 15, 1117 Hungary",ChIJeW6cNaLdQUcRk4cvRVeHACc,"11. kerület Hengermalom út 15.,Hungary",47.46169800000001,19.045941,1,1117,OK,street_address
+96,ROOFTOP,"Békéscsaba, Éger u. 32, 5600 Hungary",ChIJM7FTO2QrREcRGKJU7p80hcE,"Békéscsaba Éger utca 32.,Hungary",46.662574,21.119194,1,5600,OK,street_address
+97,ROOFTOP,"Aszód, Falujárók útja 5, 2170 Hungary",ChIJm43V9Xy1QUcRPP-cghYVEWM,"Aszód Falujárók útja 5.,Hungary",47.6541907,19.4936722,1,2170,OK,street_address
+98,GEOMETRIC_CENTER,"Pécs, Mátyás király u., 7621 Hungary",ChIJm40Gt5ixQkcRFDlgEXy_lDk,"Pécs Mátyás király utca,Hungary",46.0748595,18.2253757,1,7621,OK,route
+99,GEOMETRIC_CENTER,"Pécs, Kazinczy u., 7621 Hungary",ChIJ27T5Q6CxQkcRuWwK88az6AQ,"Pécs Kazinczy utca,Hungary",46.076349,18.2318685,1,7621,OK,route
+100,ROOFTOP,"Kisvárda, Víz u. 8, 4600 Hungary",ChIJp5pKAuXsOEcRC8KV9gXjhik,"Kisvárda Víz utca 8.,Hungary",48.2208288,22.0754525,1,4600,OK,street_address
+101,GEOMETRIC_CENTER,"Miskolc, Pallós u., 3525 Hungary",ChIJ9WKpS-KfQEcRD9I7yHWQpBM,"Miskolc Pallós utca,Hungary",48.109224,20.7807185,1,3525,OK,route
+102,ROOFTOP,"Budapest, Régi posta utca 11, 1052 Hungary",ChIJ52sEKkHcQUcR1zrj9u2EsA4,"5. kerület Régi posta utca 11.,Hungary",47.494214,19.051766,1,1052,OK,street_address
+103,APPROXIMATE,"Szolnok, Hungary",ChIJxb42OxJBQUcR0BEeDCnEAAQ,"Szolnok Papírgyári lakótelep,Hungary",47.16213550000001,20.1824712,1,,OK,"locality,political"
+104,ROOFTOP,"Hajdúszoboszló, Szilfákalja 19, 4200 Hungary",ChIJQ7HKv2QZR0cRB7q7543k-ks,"Hajdúszoboszló Szilfákalja 19.,Hungary",47.445937,21.3940379,1,4200,OK,street_address
+105,ROOFTOP,"Hajdúböszörmény, Mester u. 11, 4220 Hungary",ChIJT6I1PeVqR0cR1uQg-ZL8LLg,"Hajdúböszörmény Mester utca 11.,Hungary",47.6709056,21.5063043,1,4220,OK,street_address
+106,GEOMETRIC_CENTER,"Őrbottyán, Harang utca, 2162 Hungary",ChIJP9q_DHjNQUcRQpdK02nFdyE,"Őrbottyán Harang utca,Hungary",47.6838954,19.2831736,1,2162,OK,route
+107,ROOFTOP,"Nyíregyháza, Bocskai u. 18, 4400 Hungary",ChIJF0hySLmfOEcREQem_W-LoVk,"Nyíregyháza Bocskai utca 18.,Hungary",47.95414410000001,21.7220326,1,4400,OK,street_address
+108,APPROXIMATE,"Szeged, Gyálarét, 6757 Hungary",ChIJC0nfSquIREcRAEZ2hSvEAAo,"Szeged Gyálarét,Hungary",46.2069349,20.109296,1,6757,OK,"political,sublocality,sublocality_level_1"
+109,ROOFTOP,"Hajdúszoboszló, Liliom u. 4, 4200 Hungary",ChIJ88wC8H0ZR0cRjzwJnQ0oDZQ,"Hajdúszoboszló Liliom utca 4.,Hungary",47.449408,21.4052289,1,4200,OK,street_address
+110,ROOFTOP,"Szeged, Tisza Lajos krt. 36, 6720 Hungary",ChIJM_vgpnOIREcRcNaknz17abU,"Szeged Tisza Lajos körút 36.,Hungary",46.254483,20.1468649,1,6720,OK,street_address
+111,ROOFTOP,"Szolnok, Patkó u. 30, 5000 Hungary",ChIJQ3SZIW5GQUcR-YnieGXXWTo,"Szolnok Patkó utca 30.,Hungary",47.1479358,20.2825618,1,5000,OK,street_address
+112,ROOFTOP,"Kiskunfélegyháza, Deák Ferenc u. 51, 6100 Hungary",ChIJk7GZ6b3rQ0cRr3owhEABYHs,"Kiskunfélegyháza Deák Ferenc utca 51.,Hungary",46.7057126,19.8478139,1,6100,OK,street_address
+113,GEOMETRIC_CENTER,"Szolnok, Ceglédi u., 5000 Hungary",ChIJNQBMJJlBQUcR8NhmHiX-9x4,"Szolnok Ceglédi utca,Hungary",47.17882909999999,20.1561744,1,5000,OK,route
+114,ROOFTOP,"Siófok, Szent László u. 181, 8600 Hungary",ChIJrUcTI0_AaUcRUcmbekwool4,"Siófok Szent László utca 181.,Hungary",46.9255625,18.0986637,1,8600,OK,street_address
+115,GEOMETRIC_CENTER,"Fertőd, Bartók Béla u., 9431 Hungary",ChIJ5X9gglMFbEcRyuEnHdbmi_M,"Fertőd Bartók Béla utca,Hungary",47.6195313,16.8900388,1,9431,OK,route
+116,ROOFTOP,"Budapest, Damjanich u. 47, 1071 Hungary",ChIJXVurHXzcQUcR9Hrcl2jMJlk,"7. kerület Damjanich utca 47.,Hungary",47.508961,19.0816898,1,1071,OK,street_address
+117,GEOMETRIC_CENTER,"Szécsény, Damjanich út, 3170 Hungary",ChIJyTmny-0ZQEcRWACTbYnCJ9A,"Szécsény Damjanich út,Hungary",48.0797958,19.525784,1,3170,OK,route
+118,ROOFTOP,"Pécs, Csortos Gyula u. 16, 7635 Hungary",ChIJ70O_-buxQkcRpkeLtNHvBKg,"Pécs Csortos Gyula utca 16/f,Hungary",46.08225580000001,18.2176169,1,7635,OK,street_address
+119,GEOMETRIC_CENTER,"Drávaszabolcs, Árvácska út, 7851 Hungary",ChIJJ345c-xHXUcRdmICp2YOecs,"Drávaszabolcs Árvácska út,Hungary",45.80765419999999,18.2047637,1,7851,OK,route
+120,ROOFTOP,"Budapest, Palóc u. 4, 1135 Hungary",ChIJryS1vZrbQUcR1hhe-wyfyvY,"13. kerület Palóc utca 4.,Hungary",47.524862,19.085391,1,1135,OK,street_address
+121,GEOMETRIC_CENTER,"Gyula, Duzzasztó u., 5711 Hungary",ChIJo4jylefWRUcRtcgpMIPwFhA,"Gyula Duzzasztó utca,Hungary",46.6405945,21.3087782,1,5711,OK,route
+122,GEOMETRIC_CENTER,"Jászszentlászló, Petőfi u., 6133 Hungary",ChIJn6DjBbmWQ0cRnk3ceqsuuuw,"Jászszentlászló Petőfi utca,Hungary",46.56952380000001,19.7615506,1,6133,OK,route
+123,APPROXIMATE,"Dunaújváros, Óváros, 2400 Hungary",ChIJE7XeGOgZQkcRZvWja25drS4,"Dunaújváros Óváros,Hungary",46.9806201,18.9324882,1,2400,OK,"neighborhood,political"
+124,GEOMETRIC_CENTER,"Fót, Móricz Zsigmond út, 2151 Hungary",ChIJPw_3UrTRQUcRv2rmlJWdKKY,"Fót Móricz Zsigmond út,Hungary",47.6201222,19.1901579,1,2151,OK,route
+125,GEOMETRIC_CENTER,"Szolnok, Sport u., 5008 Hungary",ChIJRcXhjhREQUcRmPvhWiFNmag,"Szolnok Sport utca,Hungary",47.1319447,20.2139718,1,5008,OK,route
+126,GEOMETRIC_CENTER,"Magyaratád, Rácegres, 7463 Hungary",ChIJG2lkr5Y7aEcR4KbP3SBPed8,"Magyaratád Rácegres utca 53.,Hungary",46.44266,17.888994,1,7463,OK,route
+127,GEOMETRIC_CENTER,"Tát, Sinkovics köz, 2534 Hungary",ChIJseFGXiVnakcR62fBRTVOWr8,"Tát Sinkovics köz,Hungary",47.74153829999999,18.6413439,1,2534,OK,route
+128,GEOMETRIC_CENTER,"Tata, Fekete út, 2890 Hungary",ChIJI-8PdGVGakcRies1I4ysjEI,"Tata Fekete út,Hungary",47.6292295,18.3297163,1,2890,OK,route
+129,GEOMETRIC_CENTER,"Miskolc, Zoltán u., 3532 Hungary",ChIJXbg4-M6fQEcRM6-OFIJl4as,"Miskolc Zoltán utca,Hungary",48.1047556,20.7469596,1,3532,OK,route
+130,APPROXIMATE,"Gyöngyöstarján, 3036 Hungary",ChIJw_DkUtREQEcRwDoeDCnEAAQ,"Gyöngyöstarján Heves megye,Hungary",47.8132903,19.8664265,1,3036,OK,"locality,political"
+131,APPROXIMATE,"Zagyvaszántó, 3031 Hungary",ChIJJR6lG-RIQEcRULQeDCnEAAQ,"Zagyvaszántó Heves megye,Hungary",47.7753848,19.6701261,1,3031,OK,"locality,political"
+132,GEOMETRIC_CENTER,"Szigetvár, Munkás u., 7900 Hungary",ChIJ08rgDWMHaEcRp8CsOf2YOvA,"Szigetvár Munkás utca,Hungary",46.0520125,17.7865925,1,7900,OK,route
+133,ROOFTOP,"Kaposvár, Füredi u. 24, 7400 Hungary",ChIJ9W_TCh4-aEcRKF7saLM2zFM,"Kaposvár Füredi utca 24.,Hungary",46.3653406,17.7825787,1,7400,OK,street_address
+134,ROOFTOP,"Harkány, Bartók Béla u. 21, 7815 Hungary",ChIJrxMnzNJJXUcRW-sus4Ckw8I,"Harkány Bartók Béla utca 21.,Hungary",45.856452,18.245682,1,7815,OK,street_address
+135,GEOMETRIC_CENTER,"Zalakomár, Tavasz u., Hungary",ChIJkfO3ntPzaEcR6IQOqS204yg,"Zalakomár Tavasz utca,Hungary",46.5323038,17.1842961,1,,OK,route
+136,ROOFTOP,"Budapest, Akácfa u. 40, 1072 Hungary",ChIJoSGdkWjcQUcRRsv4z8t7h14,"7. kerület Akácfa utca 40.,Hungary",47.4999095,19.065595,1,1072,OK,street_address
+137,ROOFTOP,"Kalocsa, Újhelyi Imre u. 11, 6300 Hungary",ChIJLw5R6w1XQkcR9Da6s_LoToU,"Kalocsa Újhelyi Imre utca 11.,Hungary",46.53389199999999,18.975252,1,6300,OK,street_address
+138,ROOFTOP,"Tápiószele, Galamb út 5, 2766 Hungary",ChIJSY4bTJIMQUcRRQjzFdwRNfQ,"Tápiószele Galamb út 5.,Hungary",47.3214299,19.8742511,1,2766,OK,street_address
+139,ROOFTOP,"Budapest, Közraktár u. 22a, 1093 Hungary",ChIJaXuTuVbcQUcRErfe2p_O0HE,"9. kerület Közraktár utca 22/A,Hungary",47.482763,19.063375,1,1093,OK,street_address
+140,ROOFTOP,"Budapest, Dohány u. 3, 1074 Hungary",ChIJ907A5ELcQUcRfHakrVYWwBQ,"7. kerület Dohány utca 3.,Hungary",47.4953139,19.0609661,1,1074,OK,street_address
+141,GEOMETRIC_CENTER,"Budapest, Tas vezér u., Hungary",ChIJo4iYybXdQUcRKwLoam9JTnE,"11. kerület Tas vezér utca,Hungary",47.476897,19.0390946,1,,OK,route
+142,ROOFTOP,"Budapest, Váci u. 67, 1056 Hungary",ChIJXVNVdEXcQUcRdzKytdPDJ-4,"5. kerület Váci utca 67.,Hungary",47.4892309,19.055919,1,1056,OK,street_address
+143,ROOFTOP,"Pécs, Esztergár Lajos u. 9, 7633 Hungary",ChIJ565mAfWxQkcRvtqEi6HW6F8,"Pécs Esztergár Lajos utca 9.,Hungary",46.0634758,18.1943637,1,7633,OK,street_address
+144,ROOFTOP,"Törökszentmiklós, Széchenyi István út 112, 5200 Hungary",ChIJ2U0QybdJQUcRcA_E_hGIwDY,"Törökszentmiklós Széchenyi István út 112.,Hungary",47.1731949,20.4129123,1,5200,OK,street_address
+145,APPROXIMATE,"Szeged, Szőreg, 6771 Hungary",ChIJqbvYvh2MREcRfxGQcZMkXhI,"Szeged Szőreg,Hungary",46.2118909,20.192607,1,6771,OK,"political,sublocality,sublocality_level_1"
+146,APPROXIMATE,"Budapest, Óbuda, Hungary",ChIJE9VZDV3ZQUcRkL1Ca77HW7w,"3. kerület Óbuda,Hungary",47.5394381,19.0385664,1,,OK,"neighborhood,political"
+147,GEOMETRIC_CENTER,"Törökbálint, Józsefhegyi u., 2045 Hungary",ChIJ8xHx_lbgQUcR7hW5jfIDUHc,"Törökbálint Józsefhegyi utca,Hungary",47.4291985,18.909822,1,2045,OK,route
+148,GEOMETRIC_CENTER,"Sopron, Hajnal tér, 9400 Hungary",ChIJX-Q7EzU7bEcRoEionzesjys,"Sopron Hajnal tér,Hungary",47.677893,16.5489264,1,9400,OK,route
+149,GEOMETRIC_CENTER,"Sopron, Kőfaragó tér, 9400 Hungary",ChIJ7V0WArA8bEcR7AXf7GKUvmk,"Sopron Kőfaragó tér,Hungary",47.6791172,16.5941118,1,9400,OK,route
+150,ROOFTOP,"Esztergom, Bajcsy-Zsilinszky út 11, 2500 Hungary",ChIJ7e70fYthakcRQw52ZOyvwTg,"Esztergom Bajcsy-Zsilinszky út 11.,Hungary",47.7946767,18.7419877,1,2500,OK,street_address
+151,APPROXIMATE,"Fertőhomok, 9492 Hungary",ChIJVf8rYuMZbEcR8JUeDCnEAAQ,"Fertőhomok Győr-Moson-Sopron megye,Hungary",47.6196363,16.7710445,1,9492,OK,"locality,political"
+152,GEOMETRIC_CENTER,"Szolnok, József Attila út, 5000 Hungary",ChIJu3xCOGxBQUcRWeDx7H7lkzo,"Szolnok József Attila út,Hungary",47.1733775,20.1760204,1,5000,OK,route
+153,GEOMETRIC_CENTER,"Győr, Vidra u., 9026 Hungary",ChIJL2u79tG_a0cR1HHwlMssExI,"Győr Vidra utca 14.,Hungary",47.705472,17.645989,1,9026,OK,route
+154,ROOFTOP,"Budapest, Vadász u. 42, 1054 Hungary",ChIJS61uWBLcQUcR-UgIISku77o,"5. kerület Vadász utca 42.,Hungary",47.5071221,19.0531625,1,1054,OK,street_address
+155,ROOFTOP,"Debrecen, Szív u. 23, 4025 Hungary",ChIJ3Znn9WwOR0cR3LV49l0V9DA,"Debrecen Szív utca 23.,Hungary",47.5220399,21.622382,1,4025,OK,street_address
+156,ROOFTOP,"Budapest, Thököly út 104, 1146 Hungary",ChIJ3a0J9n3bQUcRJXDsfzbzPw8,"14. kerület Thököly út 104.,Hungary",47.5113739,19.0984033,1,1146,OK,street_address
+157,GEOMETRIC_CENTER,"Telki, Tücsök u., 2089 Hungary",ChIJx0Ry2Qd0akcR2qmBxwbIIvk,"Telki Tücsök utca,Hungary",47.5489774,18.8213572,1,2089,OK,route
+158,APPROXIMATE,"Ádánd, 8653 Hungary",ChIJRdBCfIjDaUcReZps7qFlvLI,"Ádánd Somogy megye,Hungary",46.8570381,18.1579842,1,8653,OK,"locality,political"
+159,RANGE_INTERPOLATED,"Budapest, Szófia u. 1, 1068 Hungary",EipCdWRhcGVzdCwgU3rDs2ZpYSB1LiAxLCAxMDY4IE1hZ3lhcm9yc3rDoWc,"6. kerület Szófia utca 1.,Hungary",47.5040433,19.0650119,1,1068,OK,street_address
+160,ROOFTOP,"Budapest, Templom u. 107, 1238 Hungary",ChIJT_KbXU_oQUcR0RS_6Ntz8Z4,"23. kerület Templom utca 107.,Hungary",47.4001876,19.1167196,1,1238,OK,street_address
+161,APPROXIMATE,"Kisújszállás, 5310 Hungary",ChIJOc4XWDfJRkcR8BMeDCnEAAQ,"Kisújszállás Jász-Nagykun-Szolnok megye,Hungary",47.215504,20.7571333,1,5310,OK,"locality,political"
+162,GEOMETRIC_CENTER,"Túrkeve, Petőfi tér, 5420 Hungary",ChIJW-w8EJq3RkcRUF_8WfG7KiU,"Túrkeve Petőfi tér,Hungary",47.1009158,20.7480451,1,5420,OK,route
+163,APPROXIMATE,"Túrkeve, 5420 Hungary",ChIJEawy75a3RkcRySXQsUEFk8Q,"Túrkeve Jász-Nagykun-Szolnok megye,Hungary",47.10434050000001,20.7417284,1,5420,OK,"locality,political"
+164,GEOMETRIC_CENTER,"Dunaújváros, Kossuth Lajos u., 2400 Hungary",ChIJoXl6wXkXQkcREiLgSvDQzfM,"Dunaújváros Kossuth Lajos utca,Hungary",46.9624371,18.9406382,1,2400,OK,route
+165,GEOMETRIC_CENTER,"Budaörs, Károly király u., 2040 Hungary",ChIJp76nPiDeQUcRa3gK3rGUi_Q,"Budaörs Károly király utca,Hungary",47.4551101,18.960982,1,2040,OK,route
+166,ROOFTOP,"Kétegyháza, MÁV telep 4, 5741 Hungary",ChIJjaDd39XNRUcRkvUVUAeX-1s,"Kétegyháza MÁV-telep 4.,Hungary",46.5295736,21.173053,1,5741,OK,street_address
+167,GEOMETRIC_CENTER,"Budapest, Marina Sétány 1, 1138 Hungary",ChIJY0PCONrbQUcRIdRnaLTTOn4,"13. kerület Marina sétány 1.,Hungary",47.546209,19.063521,2,1138,OK,"establishment,point_of_interest,store"
+168,ROOFTOP,"Budapest, Fillér u. 2, 1024 Hungary",ChIJpc6rMaHeQUcRjHnbWCPi9hQ,"2. kerület Fillér utca 2.,Hungary",47.5085045,19.023418,1,1024,OK,street_address
+169,ROOFTOP,"Kaposvár, Dési Huber István u. 2, 7400 Hungary",ChIJ-y10CAAWaEcR83PzfoJlCSw,"Kaposvár Dési Huber István utca 2.,Hungary",46.3614378,17.8002603,1,7400,OK,street_address
+170,ROOFTOP,"Budapest, Rőzse u. 16, 1125 Hungary",ChIJBe5AXJXeQUcRFgSc_tsL8gA,"12. kerület Rőzse utca 16.,Hungary",47.5075718,18.9995129,1,1125,OK,street_address
+171,GEOMETRIC_CENTER,"Kaposvár, Zárda köz, 7400 Hungary",ChIJBzZ6j_kVaEcRMon_OB-wkYA,"Kaposvár Zárda köz,Hungary",46.3594765,17.788315,1,7400,OK,route
+172,GEOMETRIC_CENTER,"Székesfehérvár, Pilinszky János tér, 8000 Hungary",ChIJeRYTPrD3aUcRzQli9EuJfz0,"Székesfehérvár Pilinszky János tér,Hungary",47.192488,18.41473,1,8000,OK,route
+173,GEOMETRIC_CENTER,"Veresegyház, Sportföld u., 2112 Hungary",ChIJ7XxyCfPNQUcRyVaDhIdAdfQ,"Veresegyház Sportföld utca,Hungary",47.6636843,19.2654596,1,2112,OK,route
+174,GEOMETRIC_CENTER,"Budapest, Somfa u., 1107 Hungary",ChIJUY2qDdPcQUcRcHC5o67gZ4o,"10. kerület Somfa utca,Hungary",47.4736718,19.1198383,1,1107,OK,route
+175,ROOFTOP,"Nagykanizsa, Sugár út 6, 8800 Hungary",ChIJQ4BkPXOTaEcRNcJhuI8pBOQ,"Nagykanizsa Sugár út 6.,Hungary",46.4560033,16.9919103,1,8800,OK,street_address
+176,RANGE_INTERPOLATED,"Kimle, Kossuth Lajos u. 78, 9181 Hungary",Ei5LaW1sZSwgS29zc3V0aCBMYWpvcyB1LiA3OCwgOTE4MSBNYWd5YXJvcnN6w6Fn,"Kimle Kossuth Lajos utca 78.,Hungary",47.8161524,17.3756339,1,9181,OK,street_address
+177,GEOMETRIC_CENTER,"Budakeszi, Márity László út, 2092 Hungary",ChIJVztmyWbfQUcRdaEFYLY45hg,"Budakeszi Márity László út,Hungary",47.517417,18.9235948,1,2092,OK,route
+178,ROOFTOP,"Miskolc, Győri kapu 101, 3532 Hungary",ChIJd-8izM6fQEcRnJnINtxD-08,"Miskolc Győri kapu 101.,Hungary",48.1029172,20.7451369,1,3532,OK,street_address
+179,GEOMETRIC_CENTER,"Áporka, Petőfi Sándor u., 2338 Hungary",ChIJNTnZ8-LwQUcR29q9tEOjC44,"Áporka Petőfi Sándor utca,Hungary",47.23033,19.0110641,1,2338,OK,route
