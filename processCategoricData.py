@@ -24,20 +24,5 @@ def processCategoricData(dataset):
     dataset['parking'] = dataset['parking'].astype('category')
     dataset['sub_type'] = dataset['sub_type'].astype('category')
     dataset['toilet'] = dataset['toilet'].astype('category')
-    
-    # TODO: take care of missing data
-    
-    X = dataset.values
-    categorical_idxs = []
-    for column in dataset.columns:
-        if dataset[column].dtype.name == 'category':
-            idx = dataset.columns.get_loc(column)
-            print(idx)
-            categorical_idxs.append(idx)
-            labelencoder = LabelEncoder()
-            X[:, idx] = labelencoder.fit_transform(X[:, idx])
-    
-    onehotencoder = OneHotEncoder(categorical_features = categorical_idxs)
-    X = onehotencoder.fit_transform(X).toarray()
-    
+
     return X

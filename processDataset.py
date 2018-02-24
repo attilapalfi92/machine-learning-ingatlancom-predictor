@@ -20,12 +20,5 @@ def processDataset (dataset):
     dataset = dataset[dataset['size'] <= 300]
     dataset = dataset[dataset['rooms'] < 12]
     dataset = dataset[dataset['half_rooms'] < 12]
-
-    y = dataset['price'].values
-    dataset = dataset.drop('id', 1).drop('price', 1)
-    X = processCategoricData(dataset)
-#    
-#    floor_imputer = Imputer(missing_values="NaN", strategy='most_frequent')    
-#    floor_imputer.fit(X[:, dataset.columns.get_loc('floor')])
     
     return X, y

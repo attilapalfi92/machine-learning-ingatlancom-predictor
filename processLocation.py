@@ -8,6 +8,7 @@ Created on Thu Feb 22 11:32:21 2018
 import pandas as pd
 
 def processLocation (dataset):
+    
     dataset['location'] = dataset[['settlement', 'settlement_sub']] \
     .apply(lambda s: ' '.join(s), axis=1)
     
