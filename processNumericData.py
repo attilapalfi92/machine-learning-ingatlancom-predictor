@@ -5,6 +5,7 @@ Created on Thu Feb 22 14:57:45 2018
 @author: attila.palfi
 """
 from sklearn.preprocessing import Imputer
+from sklearn.preprocessing import PolynomialFeatures
 import numpy as np
 import pandas as pd
 
@@ -33,7 +34,7 @@ def processNumericData(dataset):
     
     # some clearing
     dataset = dataset[dataset['size'] > 12]
-    dataset = dataset[dataset['size'] <= 300]
+    dataset = dataset[dataset['size'] < 300]
     dataset = dataset[dataset['rooms'] < 12]
     dataset = dataset[dataset['half_rooms'] < 12]
     dataset = dataset[np.isfinite(dataset['longitude'])]
@@ -54,5 +55,21 @@ def processNumericData(dataset):
     X = impute(dataset, X, 'floor')
     X = impute(dataset, X, 'building_levels')
     
+    poly_feat = PolynomialFeatures(degree = 2)
+    
+    
     dataset = pd.DataFrame(X, columns = dataset.columns)
     return dataset, y
+
+
+
+
+
+
+
+
+
+
+
+
+
