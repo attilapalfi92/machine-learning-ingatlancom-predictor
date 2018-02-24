@@ -6,6 +6,7 @@ Created on Thu Feb 22 14:57:45 2018
 """
 from sklearn.preprocessing import Imputer
 import numpy as np
+import pandas as pd
 
 def processNumericData(dataset):
     dataset['floor'] = dataset['floor'] \
@@ -53,4 +54,5 @@ def processNumericData(dataset):
     X = impute(dataset, X, 'floor')
     X = impute(dataset, X, 'building_levels')
     
-    return dataset, X, y
+    dataset = pd.DataFrame(X, columns = dataset.columns)
+    return dataset, y
