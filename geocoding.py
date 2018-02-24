@@ -34,9 +34,9 @@ logger.addHandler(ch)
 # the daily limit will be 2500, but at a much faster rate.
 # Example: API_KEY = 'AIzaSyC9azed9tLdjpZNjg2_kVePWvMIBq154eA'
 # Key1: AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg
-# Key2: AIzaSyCpkz-uPIXvfgYvw8q3vX7hwUibT4k2yHs
-# Key3: AIzaSyD0b4pzoX7JDSasdnD_wL61kaDWksf2LFQ
-API_KEY = 'AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg'
+# Key2: AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg
+# Key3: AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw
+API_KEY = 'AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
