@@ -4,6 +4,7 @@ Created on Sat Feb 24 13:12:31 2018
 
 @author: Attila
 """
+import pandas as pd
 
 input = {
             "formatted_address" : None,
@@ -16,3 +17,25 @@ input = {
             "input_string": None
         }
 
+data = pd.read_csv('data/flat_raw.csv', ';')
+geo = pd.read_csv('data/geocode_results_sum.csv')
+
+data['location'] = data[['settlement', 'settlement_sub']] \
+    .apply(lambda s: ' '.join(s), axis=1)
+
+#geo_row = geo.loc[geo['input_string'] == '13. kerület Szegedi út,Hungary']
+#geo_row['latitude'].values[0]
+
+longs = []
+lats = []
+for index, row in data.iterrows():
+    geo_row = geo.loc[geo['input_string'] == row['location']+',Hungary']
+    lats.append(geo_row['latitude'].values[0])
+    longs.append(geo_row['longitude'].values[0])
+    
+data['longitude'] = longs
+data['latitude'] = lats
+
+data = data.drop('location', 1).drop('settlement', 1).drop('settlement_sub', 1)
+
+data.to_csv('data/flats.csv', index=False)

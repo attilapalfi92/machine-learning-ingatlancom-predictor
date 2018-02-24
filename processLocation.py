@@ -23,6 +23,6 @@ def processLocation (dataset):
                 break
     
     locs = pd.DataFrame(list(as_dict.items()), columns=['Address', 'Settlement'])
-    locs.to_csv('locations.csv', index=False)
+    locs.to_csv('data/locations.csv', index=False)
     
     return dataset
