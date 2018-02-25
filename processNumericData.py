@@ -33,10 +33,10 @@ def processNumericData(dataset):
     .astype(float)
     
     # some clearing
-    dataset = dataset[dataset['size'] > 12]
-    dataset = dataset[dataset['size'] < 300]
-    dataset = dataset[dataset['rooms'] < 12]
-    dataset = dataset[dataset['half_rooms'] < 12]
+    dataset = dataset[dataset['size'] > 20]
+    dataset = dataset[dataset['size'] < 250]
+    dataset = dataset[dataset['rooms'] < 10]
+    dataset = dataset[dataset['half_rooms'] < 10]
     dataset = dataset[np.isfinite(dataset['longitude'])]
     dataset = dataset[np.isfinite(dataset['latitude'])]
     

@@ -28,11 +28,6 @@ regressor = LinearRegression()
 regressor.fit(X = X_train, y = y_train)
 coef = regressor.coef_
 
-# plotting learning curves
-plot = plot_learning_curve(regressor, 'Learning Curves', X_train, y_train, ylim=None, cv=None,
-                        n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
-plot.show()
-
 # predict the test set result
 y_pred = regressor.predict(X_test)
 
@@ -45,3 +40,8 @@ for hx in np.nditer(y_pred):
     i = i + 1
     
 J_test = J_test / (2 * y_test.size)
+
+# plotting learning curves
+plot = plot_learning_curve(regressor, 'Learning Curves', X_train, y_train, ylim=None, cv=None,
+                        n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
+plot.show()
