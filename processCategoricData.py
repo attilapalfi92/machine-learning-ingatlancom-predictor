@@ -37,7 +37,8 @@ def processCategoricData(dataset):
             labelencoder = LabelEncoder()
             X[:, idx] = labelencoder.fit_transform(X[:, idx])
     
-    # libs take care of dummy variable trap so I don't have to
+    # libs take care of dummy variable trap so I don't have to 
+    # (otherwise should drop first column for each category)
     onehotencoder = OneHotEncoder(categorical_features = categorical_idxs)
     X = onehotencoder.fit_transform(X).toarray()
 

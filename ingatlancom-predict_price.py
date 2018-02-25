@@ -15,19 +15,25 @@ dataset = pd.read_csv('data/flats.csv')
 dataset, y = processNumericData(dataset)
 dataset, X = processCategoricData(dataset)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1)
+# feature scaling
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# splitting into train and test set
+X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size = 0.1)
 
 # feature scaling
-sc_X = StandardScaler()
-X_train = sc_X.fit_transform(X_train)
-X_test = sc_X.transform(X_test)
+#sc_X = StandardScaler()
+#X_train = sc_X.fit_transform(X_train)
+#X_test = sc_X.transform(X_test)
 
 # fitting regression
 regressor = LinearRegression()
 regressor.fit(X = X_train, y = y_train)
+coef = regressor.coef_
 
 # plotting learning curves
-plot = plot_learning_curve(regressor, 'Learning Curves', X, y, ylim=None, cv=None,
+plot = plot_learning_curve(regressor, 'Learning Curves', X_scaled, y, ylim=None, cv=None,
                         n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
 plot.show()
 
