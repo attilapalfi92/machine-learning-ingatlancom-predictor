@@ -54,11 +54,19 @@ def processNumericData(dataset):
     
     X = impute(dataset, X, 'floor')
     X = impute(dataset, X, 'building_levels')
-    
-    poly_feat = PolynomialFeatures(degree = 2)
-    
-    
     dataset = pd.DataFrame(X, columns = dataset.columns)
+
+
+    # adding polynomial features
+    features_to_poly = dataset[['rooms','half_rooms','size', 'latitude', 'longitude']].values
+    poly_feat = PolynomialFeatures(degree = 3)
+    X_poly = poly_feat.fit_transform(features_to_poly)
+    poly_dataset = pd.DataFrame(X_poly)
+    
+    dropped_dataset = dataset.drop('rooms', 1).drop('half_rooms', 1).drop('size', 1)\
+    .drop('latitude', 1).drop('longitude', 1)
+    dataset = pd.concat([dropped_dataset, poly_dataset], axis=1)
+    
     return dataset, y
 
 
