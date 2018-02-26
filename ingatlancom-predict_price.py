@@ -13,22 +13,22 @@ from plot_regularizations import plot_regularizations
 from sklearn.metrics import mean_squared_error
 
 # Importing da dataset
-dataset = pd.read_csv('data/flats.csv')
+initial_dataset = pd.read_csv('data/flats.csv')
 poly_degree = 4
-dataset, y = processNumericData(dataset, poly_degree)
+dataset, y = processNumericData(initial_dataset, poly_degree)
 dataset, X = processCategoricData(dataset)
 
 # splitting into train and test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.1)
 
 # feature scaling
-sc_X = StandardScaler()
-X_train = sc_X.fit_transform(X_train)
-X_test = sc_X.transform(X_test)
+X_scaler = StandardScaler()
+X_train = X_scaler.fit_transform(X_train)
+X_test = X_scaler.transform(X_test)
 
 # fitting regression
 #regressor = LinearRegression()
-regressor = Ridge(alpha = 0.05) # regularized linear regression
+regressor = Ridge(alpha = 0.01) # regularized linear regression
 regressor.fit(X = X_train, y = y_train)
 
 # predict the test set result
@@ -46,7 +46,10 @@ print('J_test=%s' % J_test)
 
 # ------------ PLOTTING ------------
 # plotting learning curves
-plot_learning_curve(regressor, 'Learning Curves', X_train, y_train, ylim=None, cv=None,
+# rescaling
+rescaler = StandardScaler()
+X_rescaled = rescaler.fit_transform(X)
+plot_learning_curve(regressor, 'Learning Curves', X_rescaled, y, ylim=None, cv=None,
                     n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
 
 # plotting by regularization parameters
