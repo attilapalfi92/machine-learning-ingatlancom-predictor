@@ -59,7 +59,7 @@ def processNumericData(dataset):
 
     # adding polynomial features
     features_to_poly = dataset[['rooms','half_rooms','size', 'latitude', 'longitude']].values
-    poly_feat = PolynomialFeatures(degree = 3)
+    poly_feat = PolynomialFeatures(degree = 4)
     X_poly = poly_feat.fit_transform(features_to_poly)
     poly_dataset = pd.DataFrame(X_poly)
     

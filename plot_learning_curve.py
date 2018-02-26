@@ -81,7 +81,7 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
              label="Cross-validation score")
 
     plt.legend(loc="best")
-    return plt
+    plt.show()
 
 #
 #digits = load_digits()

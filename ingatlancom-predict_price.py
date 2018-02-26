@@ -6,9 +6,11 @@ from processCategoricData import processCategoricData
 from processNumericData import processNumericData
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import cross_val_score
 from plot_learning_curve import plot_learning_curve
-import math
+from plot_regularizations import plot_regularizations
+from sklearn.metrics import mean_squared_error
 
 # Importing da dataset
 dataset = pd.read_csv('data/flats.csv')
@@ -24,24 +26,28 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 
 # fitting regression
-regressor = LinearRegression()
+#regressor = LinearRegression()
+regressor = Ridge(alpha = 0.1) # regularized linear regression
 regressor.fit(X = X_train, y = y_train)
-coef = regressor.coef_
 
 # predict the test set result
 y_pred = regressor.predict(X_test)
 
-# calculating cost on test set
-J_test = 0
-i = 0
-for hx in np.nditer(y_pred):
-    yt = y_test[i]
-    J_test = math.pow(hx - yt, 2) + J_test
-    i = i + 1
-    
-J_test = J_test / (2 * y_test.size)
+# evaluating
+train_score = regressor.score(X_train, y_train)
+print('train_score=%s' % train_score)
+test_score = regressor.score(X_test, y_test)
+print('test_score=%s' % test_score)
+scores = cross_val_score(regressor, X=X_train, y=y_train, scoring="neg_mean_squared_error")
+print('scores=%s' % scores)
+J_test = mean_squared_error(y_test, y_pred)
+print('J_test=%s' % J_test)
 
+# ------------ PLOTTING ------------
 # plotting learning curves
-plot = plot_learning_curve(regressor, 'Learning Curves', X_train, y_train, ylim=None, cv=None,
-                        n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
-plot.show()
+plot_learning_curve(regressor, 'Learning Curves', X_train, y_train, ylim=None, cv=None,
+                    n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
+
+# plotting by regularization parameters
+alphas = np.logspace(-5, 1, 60)
+plot_regularizations(X_train, X_test, y_train, y_test, alphas)
