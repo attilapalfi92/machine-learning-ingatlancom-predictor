@@ -14,7 +14,8 @@ from sklearn.metrics import mean_squared_error
 
 # Importing da dataset
 dataset = pd.read_csv('data/flats.csv')
-dataset, y = processNumericData(dataset)
+poly_degree = 4
+dataset, y = processNumericData(dataset, poly_degree)
 dataset, X = processCategoricData(dataset)
 
 # splitting into train and test set
@@ -27,7 +28,7 @@ X_test = sc_X.transform(X_test)
 
 # fitting regression
 #regressor = LinearRegression()
-regressor = Ridge(alpha = 0.1) # regularized linear regression
+regressor = Ridge(alpha = 0.05) # regularized linear regression
 regressor.fit(X = X_train, y = y_train)
 
 # predict the test set result

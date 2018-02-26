@@ -9,7 +9,7 @@ from sklearn.preprocessing import PolynomialFeatures
 import numpy as np
 import pandas as pd
 
-def processNumericData(dataset):
+def processNumericData(dataset, poly_degree=3):
     dataset['floor'] = dataset['floor'] \
     .apply(lambda f: f.replace('nincs megadva', 'NaN')).astype(float)
     
@@ -59,7 +59,7 @@ def processNumericData(dataset):
 
     # adding polynomial features
     features_to_poly = dataset[['rooms','half_rooms','size', 'latitude', 'longitude']].values
-    poly_feat = PolynomialFeatures(degree = 4)
+    poly_feat = PolynomialFeatures(degree = poly_degree)
     X_poly = poly_feat.fit_transform(features_to_poly)
     poly_dataset = pd.DataFrame(X_poly)
     
