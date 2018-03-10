@@ -26,18 +26,19 @@ def custom_call():
     #predictor_cached = cache.get('predictor') #test if None
     #app.logger.debug(predictor_cached)
 
-@app.route('/')
+@app.route('/', methods=['GET',])
 def index():
-    building_constants = {
-        'mat': constants.BUILDING_MATERIAL,
-        'comfort': constants.COMFORT,
-        'cond': constants.CONDITION,
-        'heating': constants.HEATING,
-        'parking': constants.PARKING,
-        'sub_type': constants.SUB_TYPE,
-        'toilet': constants.TOILET_TYPE,
-    }
-    return render_template('index.html', props=building_constants)
+    if request.method == 'GET':
+        building_constants = {
+            'mat': constants.BUILDING_MATERIAL,
+            'comfort': constants.COMFORT,
+            'cond': constants.CONDITION,
+            'heating': constants.HEATING,
+            'parking': constants.PARKING,
+            'sub_type': constants.SUB_TYPE,
+            'toilet': constants.TOILET_TYPE,
+        }
+        return render_template('index.html', props=building_constants)
 
 @app.route('/predict', methods=['POST',])
 def hello():
@@ -58,9 +59,9 @@ def hello():
         toilet = request.form['toilet']
 
         #TODO: debug returned type of rooms
-        if rooms_whole == 0:
+        if int(rooms_whole) == 0:
             rooms = str(rooms_half) + " fél"
-        elif rooms_half == 0:
+        elif int(rooms_half) == 0:
             rooms = str(rooms_whole)
         else:
             rooms = str(rooms_whole) + " + " + str(rooms_half) + " fél"
@@ -87,7 +88,8 @@ def hello():
         app.logger.info(prediction)
         print(str(prediction))
 
-    return render_template('prediction.html', prediction=prediction)
+    #return render_template('prediction.html', prediction=prediction)
+    return prediction
 
 
 
