@@ -1,26 +1,29 @@
 from flask import Flask
 from flask import render_template
-import constants, os
+import constants, sys
 from flask import request
 from werkzeug.contrib.cache import SimpleCache
-cache = SimpleCache()
+from production.housing_price_predictor import HousingPricePredictor
+import pandas as pd
+
+#cache = SimpleCache()
+predictor = None
 
 app = Flask(__name__)
 
-
-class TempObject:
-    def __init__(self):
-        self.somekey = "somevalue"
-
 @app.before_first_request
 def custom_call():
-    app.logger.debug("Starting custom call")
+    app.logger.debug("Start training")
 
-    predictor = TempObject()
+    initial_dataset = pd.read_csv("data/flats.csv")
+    #dataset = initial_dataset.sample(frac=1).reset_index(drop=True)
+    predictor = HousingPricePredictor(initial_dataset)
 
-    cache.set('predictor', predictor, 60*60)
-    predictor_cached = cache.get('predictor') #test if None
-    app.logger.debug(predictor_cached)
+    #app.logger.debug("Predictor size: " + str(sys.getsizeof(predictor)))
+
+    #cache.set('predictor', predictor, 60*60)
+    #predictor_cached = cache.get('predictor') #test if None
+    #app.logger.debug(predictor_cached)
 
 @app.route('/')
 def index():
@@ -41,9 +44,44 @@ def hello():
     if request.method == 'POST':
         building_levels = request.form['building_levels']
         building_material = request.form['building_material']
+        comfort = request.form['comfort']
+        cond = request.form['cond']
+        floor = request.form['floor']
+        heating = request.form['heating']
+        parking = request.form['parking']
+        rooms_whole = request.form['rooms_whole']
+        rooms_half = request.form['rooms_half']
+        address = request.form['address']
+        size = request.form['size']
+        sub_type = request.form['sub_type']
+        toilet = request.form['toilet']
 
-        pass
-    predictor = cache.get('predictor')
+        #TODO: debug returned type of rooms
+        if rooms_whole == 0:
+            rooms = str(rooms_half) + " fél"
+        elif rooms_half == 0:
+            rooms = str(rooms_whole)
+        else:
+            rooms = str(rooms_whole) + " + " + str(rooms_half) + " fél"
+
+        parameter_pd = pd.DataFrame()
+        parameter_pd['building_levels'] = [building_levels]
+        parameter_pd['building_material'] = [building_material]
+        parameter_pd['comfort'] = [comfort]
+        parameter_pd['cond'] = [cond]
+        parameter_pd['floor'] = [floor]
+        parameter_pd['heating'] = [heating]
+        parameter_pd['parking'] = [parking]
+        parameter_pd['rooms'] = [rooms]
+        parameter_pd['size'] = [size]
+        parameter_pd['sub_type'] = [sub_type]
+        parameter_pd['toilet'] = [toilet]
+
+
+
+        #garden_connected,heating,parking,price,rooms,size,sub_type,toilet,longitude,latitude
+
+
 
     prediction=None
     return render_template('prediction.html', prediction=prediction)

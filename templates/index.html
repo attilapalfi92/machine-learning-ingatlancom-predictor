@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <form>
+    <form action="/predict" method="post">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="building_levels">Building Levels</label>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="form-row">
-            <div class="form-group col-md-8">
+            <div class="form-group col-md-4">
                 <label for="parking">Parking</label>
                 <select id="parking" class="form-control">
                     <option selected>Choose...</option>
@@ -78,9 +78,9 @@
                     {% endfor %}
                 </select>
             </div>
-            <div class="form-group col-md-4">
-                <label for="price">Price [Million]</label>
-                <input type="number" class="form-control" id="price" placeholder="1..10...">
+            <div class="form-group col-md-8">
+                <label for="address">Address</label>
+                <input type="number" class="form-control" id="address" placeholder="1139. Budapest, Váci út 99.">
             </div>
         </div>
         <div class="form-row">
