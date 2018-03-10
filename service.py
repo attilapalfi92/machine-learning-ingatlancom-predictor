@@ -80,8 +80,8 @@ def hello():
 
         latlong = geocode_address(address)
 
-        parameter_pd['longitude'] = [latlong.longitude]
-        parameter_pd['latitude'] = [latlong.latitude]
+        parameter_pd['longitude'] = latlong['longitude']
+        parameter_pd['latitude'] = latlong['latitude']
 
         prediction = predictor.predict(parameter_pd)
         app.logger.debug(prediction)

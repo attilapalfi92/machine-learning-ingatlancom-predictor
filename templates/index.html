@@ -21,11 +21,11 @@
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="building_levels">Building Levels</label>
-                <input type="number" class="form-control" id="building_levels" placeholder="1..10...">
+                <input type="number" class="form-control" id="building_levels" name="building_levels" placeholder="1..10...">
             </div>
             <div class="form-group col-md-8">
                 <label for="building_material">Building Material</label>
-                <select id="building_material" class="form-control">
+                <select id="building_material" class="form-control" name="building_material">
                     <option selected>Choose...</option>
                     {% for opt in props.mat %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -36,7 +36,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="comfort">Comfort</label>
-                <select id="comfort" class="form-control">
+                <select id="comfort" class="form-control" name="comfort">
                     <option selected>Choose...</option>
                     {% for opt in props.comfort %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -45,7 +45,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="cond">Condition</label>
-                <select id="cond" class="form-control">
+                <select id="cond" class="form-control" name="cond">
                     <option selected>Choose...</option>
                     {% for opt in props.cond %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -56,11 +56,11 @@
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="floor">Floor</label>
-                <input type="number" class="form-control" id="floor" placeholder="0..10...">
+                <input type="number" class="form-control" id="floor" placeholder="0..10..." name="floor">
             </div>
             <div class="form-group col-md-8">
                 <label for="heating">Heating</label>
-                <select id="heating" class="form-control">
+                <select id="heating" class="form-control" name="heating">
                     <option selected>Choose...</option>
                     {% for opt in props.heating %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -71,7 +71,7 @@
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="parking">Parking</label>
-                <select id="parking" class="form-control">
+                <select id="parking" class="form-control" name="parking">
                     <option selected>Choose...</option>
                     {% for opt in props.parking %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -80,27 +80,27 @@
             </div>
             <div class="form-group col-md-12">
                 <label for="address">Address</label>
-                <input type="text" class="form-control" id="address" placeholder="1139. Budapest, Váci út 99.">
+                <input type="text" class="form-control" id="address" placeholder="1139. Budapest, Váci út 99." name="address">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-3">
                 <label for="rooms_whole">Rooms (whole)</label>
-                <input type="number" class="form-control" id="rooms_whole" placeholder="1..5...">
+                <input type="number" class="form-control" id="rooms_whole" placeholder="1..5..." name="rooms_whole">
             </div>
             <div class="form-group col-md-3">
                 <label for="rooms_half">Rooms (half)</label>
-                <input type="number" class="form-control" id="rooms_half" placeholder="1..5...">
+                <input type="number" class="form-control" id="rooms_half" placeholder="1..5..." name="rooms_half">
             </div>
             <div class="form-group col-md-6">
                 <label for="size">Size [Sqare meters]</label>
-                <input type="number" class="form-control" id="size" placeholder="20..50...">
+                <input type="number" class="form-control" id="size" placeholder="20..50..." name="size">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="sub_type">Subtype</label>
-                <select id="sub_type" class="form-control">
+                <select id="sub_type" class="form-control" name="sub_type">
                     <option selected>Choose...</option>
                     {% for opt in props.sub_type %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
@@ -109,7 +109,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="toilet">Toilet Type</label>
-                <select id="toilet" class="form-control">
+                <select id="toilet" class="form-control" name="toilet">
                     <option selected>Choose...</option>
                     {% for opt in props.toilet %}
                         <option value="{{ opt.0 }}">{{ opt.1 }}</option>
