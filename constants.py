@@ -30,20 +30,22 @@ CONDITION = (
 )
 
 HEATING = (
-    ("3", "3"),
-    ("cserépkályha", "cserépkályha"),
     ("cserépkályha", "cserépkályha"),
     ("egyéb", "egyéb"),
-    ("cserépkályha", "cserépkályha"),
     ("egyéb kazán", "egyéb kazán"),
-    ("vegyes tüzelésű kazán", "vegyes tüzelésű kazán"),
     ("elektromos", "elektromos"),
-    ("vegyes tüzelésű kazán", "vegyes tüzelésű kazán"),
     ("gáz (cirko)", "gáz (cirko)"),
-    ("vegyes tüzelésű kazán", "vegyes tüzelésű kazán"),
+    ("gáz (konvektor)", "gáz (konvektor)"),
+    ("fan-coil", "fan-coil"),
     ("gázkazán", "gázkazán"),
+    ("falfűtés", "falfűtés"),
     ("vegyes tüzelésű kazán", "vegyes tüzelésű kazán"),
     ("házközponti", "házközponti"),
+    ("távfűtés", "távfűtés"),
+    ("padlófűtés", "padlófűtés"),
+    ("mennyezeti hűtés-fűtés", "mennyezeti hűtés-fűtés"),
+    ("hőszivattyú", "hőszivattyú"),
+    ("megújuló energia", "megújuló energia")
 )
 
 PARKING = (
@@ -51,6 +53,18 @@ PARKING = (
     ("teremgarázs hely", "teremgarázs hely"),
     ("teremgarázs hely - benne van az árban", "teremgarázs hely - benne van az árban"),
     ("teremgarázs hely - bérelhető", "teremgarázs hely - bérelhető"),
+    ("teremgarázs hely - kötelező megvenni", "teremgarázs hely - kötelező megvenni"),
+    ("teremgarázs hely - megvásárolható", "teremgarázs hely - megvásárolható"),
+    ("udvari beálló", "udvari beálló"),
+    ("udvari beálló - benne van az árban", "udvari beálló - benne van az árban"),
+    ("udvari beálló - bérelhető", "udvari beálló - bérelhető"),
+    ("udvari beálló - kötelező kibérelni", "udvari beálló - kötelező kibérelni"),
+    ("udvari beálló - kötelező megvenni", "udvari beálló - kötelező megvenni"),
+    ("udvari beálló - megvásárolható", "udvari beálló - megvásárolható"),
+    ("utca, közterület", "utca, közterület"),
+    ("utca, közterület - fizetős övezet", "utca, közterület - fizetős övezet"),
+    ("utca, közterület - ingyenes", "utca, közterület - ingyenes"),
+    ("önálló garázs", "önálló garázs"),
     ("önálló garázs - benne van az árban", "önálló garázs - benne van az árban"),
     ("önálló garázs - bérelhető", "önálló garázs - bérelhető"),
     ("önálló garázs - kötelező megvenni", "önálló garázs - kötelező megvenni"),

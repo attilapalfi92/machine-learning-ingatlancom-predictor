@@ -26,6 +26,14 @@ def processCategoricData(dataset):
     dataset['sub_type'] = dataset['sub_type'].astype('category')
     dataset['toilet'] = dataset['toilet'].astype('category')
 
+    heating = dataset['heating'].cat.categories
+    for h in heating:
+        print(str(h))
+        
+    parking = dataset['parking'].cat.categories
+    for p in parking:
+        print(str(p))
+
     X = dataset.values
     # encoding categorical data
     categorical_idxs = []
