@@ -3,13 +3,6 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 class CategoricalDataProcessor:
     def _prepareDataset_(self, dataset):
-        dataset = dataset.drop('ac', 1) if 'ac' in dataset.columns else dataset
-        dataset = dataset.drop('attic', 1) if 'attic' in dataset.columns else dataset
-        dataset = dataset.drop('barrier_free', 1) if 'barrier_free' in dataset.columns else dataset
-        dataset = dataset.drop('build_year', 1) if 'build_year' in dataset.columns else dataset
-        dataset = dataset.drop('energy_cert', 1) if 'energy_cert' in dataset.columns else dataset
-        dataset = dataset.drop('garden_connected', 1) if 'garden_connected' in dataset.columns else dataset
-
         dataset['building_material'] = dataset['building_material'].astype('category')
         dataset['comfort'] = dataset['comfort'].astype('category')
         dataset['cond'] = dataset['cond'].astype('category')
