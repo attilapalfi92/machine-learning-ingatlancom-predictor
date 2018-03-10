@@ -2,8 +2,8 @@
 
 import numpy as np
 import pandas as pd
-from poc.processCategoricData import processCategoricData
-from poc.process_numeric_data import process_numeric_data
+from processCategoricData import processCategoricData
+from process_numeric_data import process_numeric_data
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
