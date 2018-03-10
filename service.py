@@ -6,6 +6,7 @@ from werkzeug.contrib.cache import SimpleCache
 from production.housing_price_predictor import HousingPricePredictor
 import pandas as pd
 from production.geocoder import geocode_address
+from flask import jsonify
 
 #cache = SimpleCache()
 predictor = HousingPricePredictor(pd.read_csv("data/flats.csv"))
@@ -44,19 +45,19 @@ def index():
 def hello():
     error = None
     if request.method == 'POST':
-        building_levels = request.form['building_levels']
-        building_material = request.form['building_material']
-        comfort = request.form['comfort']
-        cond = request.form['cond']
-        floor = request.form['floor']
-        heating = request.form['heating']
-        parking = request.form['parking']
-        rooms_whole = request.form['rooms_whole']
-        rooms_half = request.form['rooms_half']
-        address = request.form['address']
-        size = request.form['size']
-        sub_type = request.form['sub_type']
-        toilet = request.form['toilet']
+        building_levels = request.json['building_levels']
+        building_material = request.json['building_material']
+        comfort = request.json['comfort']
+        cond = request.json['cond']
+        floor = request.json['floor']
+        heating = request.json['heating']
+        parking = request.json['parking']
+        rooms_whole = request.json['rooms_whole']
+        rooms_half = request.json['rooms_half']
+        address = request.json['address']
+        size = request.json['size']
+        sub_type = request.json['sub_type']
+        toilet = request.json['toilet']
 
         #TODO: debug returned type of rooms
         if int(rooms_whole) == 0:
@@ -89,7 +90,7 @@ def hello():
         print(str(prediction))
 
     #return render_template('prediction.html', prediction=prediction)
-    return prediction
+    return jsonify(prediction[0])
 
 
 

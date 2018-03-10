@@ -148,23 +148,27 @@
 
         $('#submit').click(function (event) {
             event.preventDefault();
+
+            var data = {
+                building_levels: $('#building_levels').val(),
+                building_material: $('#building_material').val(),
+                comfort: $('#comfort').val(),
+                cond: $('#cond').val(),
+                floor: $('#floor').val(),
+                heating: $('#heating').val(),
+                parking: $('#parking').val(),
+                rooms_whole: $('#rooms_whole').val(),
+                rooms_half: $('#rooms_half').val(),
+                address: $('#address').val(),
+                size: $('#size').val(),
+                sub_type: $('#sub_type').val(),
+                toilet: $('#toilet').val()
+            };
+
             $.post({
                 url: '/predict',
-                data: {
-                    building_levels: $('building_levels').value,
-                    building_material: $('building_material').value,
-                    comfort: $('comfort').value,
-                    cond: $('cond').value,
-                    floor: $('floor').value,
-                    heating: $('heating').value,
-                    parking: $('parking').value,
-                    rooms_whole: $('rooms_whole').value,
-                    rooms_half: $('rooms_half').value,
-                    address: $('address').value,
-                    size: $('size').value,
-                    sub_type: $('sub_type').value,
-                    toilet: $('toilet').value
-                },
+                contentType: 'application/json;charset=UTF-8',
+                data: JSON.stringify(data, null, '\t'),
                 success: function (result) {
                     $('#predicted_price').innerHTML = result
                 }
