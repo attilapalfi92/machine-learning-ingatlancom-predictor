@@ -81,6 +81,7 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
              label="Cross-validation score")
 
     plt.legend(loc="best")
+    #plt.interactive(False)  #Temp fix for pycharm
     plt.show()
 
 #
