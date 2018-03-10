@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 from processCategoricData import processCategoricData
-from processNumericData import processNumericData
+from process_numeric_data import process_numeric_data
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error
 # Importing da dataset
 initial_dataset = pd.read_csv('data/flats.csv')
 poly_degree = 4
-dataset, y = processNumericData(initial_dataset, poly_degree)
+dataset, y = process_numeric_data(initial_dataset, poly_degree)
 dataset, X = processCategoricData(dataset)
 
 # splitting into train and test set

@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-def processNumericData(dataset, poly_degree=3):
+def process_numeric_data(dataset, poly_degree=4):
     dataset['floor'] = dataset['floor'] \
         .apply(lambda f: f.replace('nincs megadva', 'NaN')).astype(float)
 

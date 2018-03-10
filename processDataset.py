@@ -6,13 +6,13 @@ Created on Wed Feb 21 12:37:19 2018
 """
 from sklearn.preprocessing import Imputer
 from processLocation import processLocation
-from processNumericData import processNumericData
+from process_numeric_data import process_numeric_data
 from processCategoricData import processCategoricData
 
 def processDataset (dataset):
 #    dataset = dataset.drop('id', 1)
     
-    dataset = processNumericData(dataset)
+    dataset = process_numeric_data(dataset)
     
     # some clearing
     dataset = dataset[dataset['size'] > 12]

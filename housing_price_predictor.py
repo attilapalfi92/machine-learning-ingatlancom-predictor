@@ -3,8 +3,7 @@
 import numpy as np
 import pandas as pd
 from processCategoricData import processCategoricData
-from processNumericData import processNumericData
-from polynomizer import Polynomizer
+from numeric_data_processor import NumericDataProcessor
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import cross_val_score
@@ -22,8 +21,10 @@ class HousingPricePredictor:
         # Importing da dataset
         initial_dataset = pd.read_csv(datasource)
         poly_degree = 4
-        dataset, y, self.imputers, self.polynomizer = processNumericData(initial_dataset, poly_degree)
-        dataset, X = processCategoricData(dataset)
+        self.numericDataProcessor = NumericDataProcessor(initial_dataset)
+        self.dataset = self.numericDataProcessor.getDataset()
+        self.y = self.numericDataProcessor.getY()
+        self.dataset, self.X = processCategoricData(self.dataset)
 
 
 
