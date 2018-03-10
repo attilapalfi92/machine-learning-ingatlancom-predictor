@@ -12,6 +12,11 @@ from poc.plot_learning_curve import plot_learning_curve
 from poc.plot_regularizations import plot_regularizations
 from sklearn.metrics import mean_squared_error
 
+# Settings
+SHOW_PLOTS = False
+PREDICT_ON_RUN = True
+EVALUATE_ON_RUN = True
+
 # Importing da dataset
 initial_dataset = pd.read_csv('../data/flats.csv')
 poly_degree = 4
@@ -32,26 +37,30 @@ regressor = Ridge(alpha = 0.01) # regularized linear regression
 regressor.fit(X = X_train, y = y_train)
 
 # predict the test set result
-y_pred = regressor.predict(X_test)
+if PREDICT_ON_RUN:
+    y_pred = regressor.predict(X_test)
 
 # evaluating
-train_score = regressor.score(X_train, y_train)
-print('train_score=%s' % train_score)
-test_score = regressor.score(X_test, y_test)
-print('test_score=%s' % test_score)
-scores = cross_val_score(regressor, X=X_train, y=y_train, scoring="neg_mean_squared_error")
-print('scores=%s' % scores)
-J_test = mean_squared_error(y_test, y_pred)
-print('J_test=%s' % J_test)
+if EVALUATE_ON_RUN:
+    train_score = regressor.score(X_train, y_train)
+    print('train_score=%s' % train_score)
+    test_score = regressor.score(X_test, y_test)
+    print('test_score=%s' % test_score)
+    scores = cross_val_score(regressor, X=X_train, y=y_train, scoring="neg_mean_squared_error")
+    print('scores=%s' % scores)
+    J_test = mean_squared_error(y_test, y_pred)
+    print('J_test=%s' % J_test)
 
 # ------------ PLOTTING ------------
 # plotting learning curves
 # rescaling
-rescaler = StandardScaler()
-X_rescaled = rescaler.fit_transform(X)
-plot_learning_curve(regressor, 'Learning Curves', X_rescaled, y, ylim=None, cv=None,
-                    n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
 
-# plotting by regularization parameters
-alphas = np.logspace(-5, 1, 60)
-plot_regularizations(X_train, X_test, y_train, y_test, alphas)
+if SHOW_PLOTS:
+    rescaler = StandardScaler()
+    X_rescaled = rescaler.fit_transform(X)
+    plot_learning_curve(regressor, 'Learning Curves', X_rescaled, y, ylim=None, cv=None,
+                        n_jobs=1, train_sizes=np.linspace(.1, 1.0, 10))
+
+    # plotting by regularization parameters
+    alphas = np.logspace(-5, 1, 60)
+    plot_regularizations(X_train, X_test, y_train, y_test, alphas)
