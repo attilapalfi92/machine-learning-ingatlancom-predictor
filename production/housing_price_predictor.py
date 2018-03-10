@@ -1,33 +1,28 @@
-# Data Preprocessing
-
-import numpy as np
 import pandas as pd
 
-from numeric_data_processor import NumericDataProcessor
+from production.numeric_data_processor import NumericDataProcessor
+from production.categorical_data_processor import CategoricalDataProcessor
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Ridge
-from sklearn.model_selection import cross_val_score
-from plot_learning_curve import plot_learning_curve
-from plot_regularizations import plot_regularizations
-from sklearn.metrics import mean_squared_error
 
 
 class HousingPricePredictor:
-    def __init__(self, datasource='data/flats.csv',
+    def __init__(self, data_source='../data/flats.csv',
                  estimator=Ridge(alpha=0.01)):
 
         self.estimator = estimator
 
         # Importing da dataset
-        initial_dataset = pd.read_csv(datasource)
+        initial_dataset = pd.read_csv(data_source)
 
         # numeric data
         self.numericDataProcessor = NumericDataProcessor(initial_dataset)
         dataset = self.numericDataProcessor.getDataset()
         y = self.numericDataProcessor.getY()
 
-        # categoric data
-        dataset, X = processCategoricData(dataset)
+        # categorical data
+        self.categoricalDataProcessor = CategoricalDataProcessor(dataset)
+        X = self.categoricalDataProcessor.getX()
 
         # feature scaling
         self.standardScaler = StandardScaler()
@@ -36,3 +31,6 @@ class HousingPricePredictor:
 
     def predict(self, dataset):
         dataset = self.numericDataProcessor.process(dataset)
+        X = self.categoricalDataProcessor.transform(dataset)
+        X_scaled = self.standardScaler.transform(X)
+        return self.estimator.predict(X_scaled)

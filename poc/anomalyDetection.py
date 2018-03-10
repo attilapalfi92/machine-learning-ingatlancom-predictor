@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import scipy.stats as stats
 import pylab as pl
-from processDataset import processDataset
+from poc.processDataset import processDataset
 
 dataset = pd.read_csv('flat_raw.csv', ';')
 dataset = processDataset(dataset)

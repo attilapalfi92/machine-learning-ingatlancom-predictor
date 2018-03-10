@@ -35,6 +35,12 @@ class CategoricalDataProcessor:
         self.oneHotEncoder = OneHotEncoder(categorical_features=self.categoricalIndexes)
         self.oneHotEncoder.fit(X)
 
+        X = dataset.values
+        for idx in self.categoricalIndexes:
+            X[:, idx] = self.labelEncoders[idx].transform(X[:, idx])
+        self.X = self.oneHotEncoder.transform(X).toarray()
+        self.dataset = dataset
+
     def transform(self, dataset):
         dataset = self._prepareDataset_(dataset)
         X = dataset.values
@@ -42,3 +48,9 @@ class CategoricalDataProcessor:
             X[:, idx] = self.labelEncoders[idx].transform(X[:, idx])
         X = self.oneHotEncoder.transform(X).toarray()
         return X
+
+    def getX(self):
+        return self.X
+
+    def getDataset(self):
+        return self.dataset

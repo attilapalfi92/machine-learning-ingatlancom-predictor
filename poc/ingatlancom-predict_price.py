@@ -2,18 +2,18 @@
 
 import numpy as np
 import pandas as pd
-from processCategoricData import processCategoricData
-from process_numeric_data import process_numeric_data
+from poc.processCategoricData import processCategoricData
+from poc.process_numeric_data import process_numeric_data
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import cross_val_score
-from plot_learning_curve import plot_learning_curve
-from plot_regularizations import plot_regularizations
+from poc.plot_learning_curve import plot_learning_curve
+from poc.plot_regularizations import plot_regularizations
 from sklearn.metrics import mean_squared_error
 
 # Importing da dataset
-initial_dataset = pd.read_csv('data/flats.csv')
+initial_dataset = pd.read_csv('../data/flats.csv')
 poly_degree = 4
 dataset, y = process_numeric_data(initial_dataset, poly_degree)
 dataset, X = processCategoricData(dataset)

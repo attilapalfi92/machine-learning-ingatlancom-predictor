@@ -1,4 +1,4 @@
-from polynomizer import Polynomizer
+from production.polynomizer import Polynomizer
 from sklearn.preprocessing import Imputer
 import numpy as np
 import pandas as pd

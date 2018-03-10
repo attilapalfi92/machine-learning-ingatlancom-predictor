@@ -4,10 +4,8 @@ Created on Wed Feb 21 12:37:19 2018
 
 @author: attila.palfi
 """
-from sklearn.preprocessing import Imputer
-from processLocation import processLocation
-from process_numeric_data import process_numeric_data
-from processCategoricData import processCategoricData
+from poc.process_numeric_data import process_numeric_data
+
 
 def processDataset (dataset):
 #    dataset = dataset.drop('id', 1)

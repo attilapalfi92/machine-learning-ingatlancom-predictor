@@ -4,7 +4,7 @@ Created on Thu Feb 22 14:57:45 2018
 
 @author: attila.palfi
 """
-from polynomizer import Polynomizer
+from production.polynomizer import Polynomizer
 from sklearn.preprocessing import Imputer
 import numpy as np
 import pandas as pd
