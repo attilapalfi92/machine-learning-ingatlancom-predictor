@@ -8,11 +8,11 @@ import pandas as pd
 from production.geocoder import geocode_address
 
 #cache = SimpleCache()
-predictor = None
+predictor = HousingPricePredictor(pd.read_csv("data/flats.csv"))
 
 app = Flask(__name__)
 
-@app.before_first_request
+#@app.before_first_request
 def custom_call():
     app.logger.debug("Start training")
 
