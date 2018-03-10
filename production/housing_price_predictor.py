@@ -7,13 +7,10 @@ from sklearn.linear_model import Ridge
 
 
 class HousingPricePredictor:
-    def __init__(self, data_source='../data/flats.csv',
+    def __init__(self, initial_dataset,
                  estimator=Ridge(alpha=0.01)):
 
         self.estimator = estimator
-
-        # Importing da dataset
-        initial_dataset = pd.read_csv(data_source)
 
         # numeric data
         self.numericDataProcessor = NumericDataProcessor(initial_dataset)
