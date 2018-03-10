@@ -5,6 +5,7 @@ from flask import request
 from werkzeug.contrib.cache import SimpleCache
 from production.housing_price_predictor import HousingPricePredictor
 import pandas as pd
+from production.geocoder import geocode_address
 
 #cache = SimpleCache()
 predictor = None
@@ -77,13 +78,14 @@ def hello():
         parameter_pd['sub_type'] = [sub_type]
         parameter_pd['toilet'] = [toilet]
 
+        latlong = geocode_address(address)
 
+        parameter_pd['longitude'] = [latlong.longitude]
+        parameter_pd['latitude'] = [latlong.latitude]
 
-        #garden_connected,heating,parking,price,rooms,size,sub_type,toilet,longitude,latitude
+        prediction = predictor.predict(parameter_pd)
+        app.logger.debug(prediction)
 
-
-
-    prediction=None
     return render_template('prediction.html', prediction=prediction)
 
 
