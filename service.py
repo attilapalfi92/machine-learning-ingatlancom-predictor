@@ -84,7 +84,8 @@ def hello():
         parameter_pd['latitude'] = latlong['latitude']
 
         prediction = predictor.predict(parameter_pd)
-        app.logger.debug(prediction)
+        app.logger.info(prediction)
+        print(str(prediction))
 
     return render_template('prediction.html', prediction=prediction)
 
