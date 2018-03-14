@@ -8,7 +8,7 @@ import pandas as pd
 from production.geocoder import geocode_address
 
 #cache = SimpleCache()
-predictor = HousingPricePredictor(pd.read_csv("data/flats.csv"))
+predictor = HousingPricePredictor(pd.read_csv("data/flats2.csv"))
 
 app = Flask(__name__)
 
@@ -28,17 +28,16 @@ def custom_call():
 
 @app.route('/', methods=['GET',])
 def index():
-    if request.method == 'GET':
-        building_constants = {
-            'mat': constants.BUILDING_MATERIAL,
-            'comfort': constants.COMFORT,
-            'cond': constants.CONDITION,
-            'heating': constants.HEATING,
-            'parking': constants.PARKING,
-            'sub_type': constants.SUB_TYPE,
-            'toilet': constants.TOILET_TYPE,
-        }
-        return render_template('index.html', props=building_constants)
+    building_constants = {
+        'mat': constants.BUILDING_MATERIAL,
+        'comfort': constants.COMFORT,
+        'cond': constants.CONDITION,
+        'heating': constants.HEATING,
+        'parking': constants.PARKING,
+        'sub_type': constants.SUB_TYPE,
+        'toilet': constants.TOILET_TYPE,
+    }
+    return render_template('index.html', props=building_constants)
 
 @app.route('/predict', methods=['POST',])
 def hello():
@@ -58,7 +57,7 @@ def hello():
         sub_type = request.form['sub_type']
         toilet = request.form['toilet']
 
-        #TODO: debug returned type of rooms
+        #TODO: it's impossible to not to add a half room
         if int(rooms_whole) == 0:
             rooms = str(rooms_half) + " fél"
         elif int(rooms_half) == 0:
@@ -83,13 +82,13 @@ def hello():
 
         parameter_pd['longitude'] = latlong['longitude']
         parameter_pd['latitude'] = latlong['latitude']
+        parameter_pd['location_accuracy'] = ['ROOFTOP']
 
         prediction = predictor.predict(parameter_pd)
         app.logger.info(prediction)
         print(str(prediction))
 
-    #return render_template('prediction.html', prediction=prediction)
-    return prediction
+    return render_template('prediction.html', prediction=prediction)
 
 
 
