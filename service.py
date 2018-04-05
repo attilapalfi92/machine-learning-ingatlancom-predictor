@@ -26,7 +26,7 @@ def custom_call():
     #predictor_cached = cache.get('predictor') #test if None
     #app.logger.debug(predictor_cached)
 
-@app.route('/', methods=['GET',])
+@app.route('/')
 def index():
     building_constants = {
         'mat': constants.BUILDING_MATERIAL,
@@ -57,10 +57,10 @@ def hello():
         sub_type = request.form['sub_type']
         toilet = request.form['toilet']
 
-        #TODO: it's impossible to not to add a half room
-        if int(rooms_whole) == 0:
+        #TODO: debug returned type of rooms
+        if rooms_whole == 0:
             rooms = str(rooms_half) + " fél"
-        elif int(rooms_half) == 0:
+        elif rooms_half == 0:
             rooms = str(rooms_whole)
         else:
             rooms = str(rooms_whole) + " + " + str(rooms_half) + " fél"
