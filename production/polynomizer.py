@@ -3,7 +3,7 @@ import pandas as pd
 
 
 class Polynomizer:
-    def __init__(self, dataset, degree=4):
+    def __init__(self, dataset, degree=3):
         features_to_poly = dataset[['rooms', 'half_rooms', 'size', 'latitude', 'longitude']].values
         self.polynomialFeatures = PolynomialFeatures(degree=degree)
         self.polynomialFeatures.fit(features_to_poly)

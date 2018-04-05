@@ -28,14 +28,17 @@ data['location'] = data[['settlement', 'settlement_sub']] \
 
 longs = []
 lats = []
+loc_acc = []
 for index, row in data.iterrows():
     geo_row = geo.loc[geo['input_string'] == row['location']+',Hungary']
     lats.append(geo_row['latitude'].values[0])
     longs.append(geo_row['longitude'].values[0])
+    loc_acc.append(geo_row['accuracy'].values[0])
     
 data['longitude'] = longs
 data['latitude'] = lats
+data['location_accuracy'] = loc_acc
 
 data = data.drop('location', 1).drop('settlement', 1).drop('settlement_sub', 1)
 
-data.to_csv('data/flats.csv', index=False)
+data.to_csv('data/flats2.csv', index=False)

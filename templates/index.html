@@ -17,13 +17,11 @@
         </div>
     </div>
 
-    <!--<form action="/predict" method="post" id="realestate_form">-->
-    <form id="realestate_form">
+    <form action="/predict" method="post">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="building_levels">Building Levels</label>
-                <input type="number" class="form-control" id="building_levels" name="building_levels"
-                       placeholder="1..10...">
+                <input type="number" class="form-control" id="building_levels" name="building_levels" placeholder="1..10...">
             </div>
             <div class="form-group col-md-8">
                 <label for="building_material">Building Material</label>
@@ -82,8 +80,7 @@
             </div>
             <div class="form-group col-md-12">
                 <label for="address">Address</label>
-                <input type="text" class="form-control" id="address" placeholder="1139. Budapest, Váci út 99."
-                       name="address">
+                <input type="text" class="form-control" id="address" placeholder="1139. Budapest, Váci út 99." name="address">
             </div>
         </div>
         <div class="form-row">
@@ -121,58 +118,19 @@
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary" id="submit">Predict price</button>
+        <button type="submit" class="btn btn-primary">Predict price</button>
     </form>
-
-    <div class="row" style="display: none">
-        <div class="col">
-            <h2>Predicted price</h2>
-            <p style="align-content: center; font-weight: bold">
-                <span id="predicted_price"></span> million
-            </p>
-        </div>
-    </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-<script>
-    $(document).ready()
-    {
-
-        $('#submit').click(function (event) {
-            event.preventDefault();
-            $.post({
-                url: '/predict',
-                data: {
-                    building_levels: $('building_levels').value,
-                    building_material: $('building_material').value,
-                    comfort: $('comfort').value,
-                    cond: $('cond').value,
-                    floor: $('floor').value,
-                    heating: $('heating').value,
-                    parking: $('parking').value,
-                    rooms_whole: $('rooms_whole').value,
-                    rooms_half: $('rooms_half').value,
-                    address: $('address').value,
-                    size: $('size').value,
-                    sub_type: $('sub_type').value,
-                    toilet: $('toilet').value
-                },
-                success: function (result) {
-                    $('#predicted_price').innerHTML = result
-                }
-            });
-        });
-
-    }
-</script>
 
 </body>
 </html>

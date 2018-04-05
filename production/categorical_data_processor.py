@@ -10,6 +10,7 @@ class CategoricalDataProcessor:
         dataset['parking'] = dataset['parking'].astype('category')
         dataset['sub_type'] = dataset['sub_type'].astype('category')
         dataset['toilet'] = dataset['toilet'].astype('category')
+        dataset['location_accuracy'] = dataset['location_accuracy'].astype('category')
         return dataset
 
     def __init__(self, dataset):

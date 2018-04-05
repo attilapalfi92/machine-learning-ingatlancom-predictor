@@ -8,7 +8,7 @@ import pandas as pd
 from production.geocoder import geocode_address
 
 #cache = SimpleCache()
-predictor = HousingPricePredictor(pd.read_csv("data/flats.csv"))
+predictor = HousingPricePredictor(pd.read_csv("data/flats2.csv"))
 
 app = Flask(__name__)
 
@@ -26,7 +26,7 @@ def custom_call():
     #predictor_cached = cache.get('predictor') #test if None
     #app.logger.debug(predictor_cached)
 
-@app.route('/')
+@app.route('/', methods=['GET',])
 def index():
     building_constants = {
         'mat': constants.BUILDING_MATERIAL,
@@ -57,10 +57,10 @@ def hello():
         sub_type = request.form['sub_type']
         toilet = request.form['toilet']
 
-        #TODO: debug returned type of rooms
-        if rooms_whole == 0:
+        #TODO: it's impossible to not to add a half room
+        if int(rooms_whole) == 0:
             rooms = str(rooms_half) + " fél"
-        elif rooms_half == 0:
+        elif int(rooms_half) == 0:
             rooms = str(rooms_whole)
         else:
             rooms = str(rooms_whole) + " + " + str(rooms_half) + " fél"
@@ -82,6 +82,7 @@ def hello():
 
         parameter_pd['longitude'] = latlong['longitude']
         parameter_pd['latitude'] = latlong['latitude']
+        parameter_pd['location_accuracy'] = ['ROOFTOP']
 
         prediction = predictor.predict(parameter_pd)
         app.logger.info(prediction)
