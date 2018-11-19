@@ -32,21 +32,16 @@ logger.addHandler(ch)
 # With API_KEY = None, you will run into a 2 second delay every 10 requests or so.
 # With a "Google Maps Geocoding API" key from https://console.developers.google.com/apis/, 
 # the daily limit will be 2500, but at a much faster rate.
-# Example: API_KEY = 'AIzaSyC9azed9tLdjpZNjg2_kVePWvMIBq154eA'
-# Key1: AIzaSyBLtMUM-8vNSGkFDsYJGLgX1YIDJjVHneg
-# Key2: AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg
-# Key3: AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw
-# Key4: AIzaSyCmuk_aDUtHZQs0B2dXLlzKtJCtWAwp6co
-API_KEY = 'AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg'
+API_KEY = 'AIzaSyBLCtTQMxFgPiqSIK5DY-tatZr72ExeCqw'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'data/geocode_results6.csv'
+output_filename = 'data_2018_11/geocode_results_10000_12500.csv'
 # Set your input file here
-input_filename = "data/locations6.csv"
+input_filename = "data_2018_11/locations_10000_12500.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "Address"
-backup_column_name = "Settlement"
+fallback_column_name = "Settlement"
 # Return Full Google Results? If True, full JSON results from Google are included in output
 RETURN_FULL_RESULTS = False
 
@@ -66,8 +61,8 @@ if address_column_name not in data.columns:
 # (remove this line / alter for your own dataset)
 data[address_column_name] = data[address_column_name].apply(lambda s: s + ',Hungary')
 addresses = (data[address_column_name]).tolist()
-data[backup_column_name] = data[backup_column_name].apply(lambda s: s + ',Hungary')
-settlements = (data[backup_column_name]).tolist()
+data[fallback_column_name] = data[fallback_column_name].apply(lambda s: s + ',Hungary')
+settlements = (data[fallback_column_name]).tolist()
 
 
 http_proxy  = "http://localhost:5555"

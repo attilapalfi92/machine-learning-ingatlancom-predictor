@@ -7,7 +7,7 @@ Created on Sat Feb 24 13:07:14 2018
 
 import pandas as pd
 
-dataset = pd.read_csv('flat_raw.csv', ';')
+dataset = pd.read_csv('data_2018_11/raw_data.csv', ',')
 dataset['location'] = dataset[['settlement', 'settlement_sub']] \
 .apply(lambda s: ' '.join(s), axis=1)
 
@@ -22,4 +22,9 @@ for a in a_list:
             break
 
 locs = pd.DataFrame(list(as_dict.items()), columns=['Address', 'Settlement'])
-locs.to_csv('locations.csv', index=False)
+locs.to_csv('data_2018_11/locations.csv', index=False)
+
+for i in range(0, locs.shape[0], 2500):
+    filename = 'data_2018_11/locations_' + str(i) + '_' + str(i + 2500) + '.csv'
+    print(filename)
+    locs[i:i+2500].to_csv(filename, index=False)

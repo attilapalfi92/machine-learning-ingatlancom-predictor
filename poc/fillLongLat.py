@@ -17,8 +17,8 @@ input = {
             "input_string": None
         }
 
-data = pd.read_csv('data/flat_raw.csv', ';')
-geo = pd.read_csv('data/geocode_results_sum.csv')
+data = pd.read_csv('data_2018_11/raw_data.csv', ',')
+geo = pd.read_csv('data_2018_11/geocode_results_sum.csv')
 
 data['location'] = data[['settlement', 'settlement_sub']] \
     .apply(lambda s: ' '.join(s), axis=1)
@@ -41,4 +41,4 @@ data['location_accuracy'] = loc_acc
 
 data = data.drop('location', 1).drop('settlement', 1).drop('settlement_sub', 1)
 
-data.to_csv('data/flats2.csv', index=False)
+data.to_csv('data_2018_11/flats2.csv', index=False)
