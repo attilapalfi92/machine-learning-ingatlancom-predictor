@@ -5,7 +5,7 @@ import requests
 # Key2: AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg
 # Key3: AIzaSyCpAT2eUeP4U2iwgsOmN1xNqldugmLNVaw
 # Key4: AIzaSyCmuk_aDUtHZQs0B2dXLlzKtJCtWAwp6co
-API_KEY = 'AIzaSyD3fFgQDRXPfxaF8lauzkUnpJdBQNXUeWg'
+API_KEY = 'AIzaSyBLCtTQMxFgPiqSIK5DY-tatZr72ExeCqw'
 
 http_proxy = "http://localhost:5555"
 https_proxy = "https://localhost:5555"

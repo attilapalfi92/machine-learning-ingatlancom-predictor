@@ -1,5 +1,3 @@
-import pandas as pd
-
 from production.numeric_data_processor import NumericDataProcessor
 from production.categorical_data_processor import CategoricalDataProcessor
 from sklearn.preprocessing import StandardScaler
